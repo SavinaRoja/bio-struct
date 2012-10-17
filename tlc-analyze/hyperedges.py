@@ -2,6 +2,7 @@
 
 from Bio.PDB.PDBParser import PDBParser
 import math
+import time
 
 
 parser = PDBParser()
@@ -15,7 +16,7 @@ def find_mutuals(residue, other_residues):
     '''
     
     '''
-    resseq = residue.get_id()[1]
+    #resseq = residue.get_id()[1]
     contacts = []
     
     for other in other_residues:  # Check all other residues
@@ -37,15 +38,23 @@ def find_mutuals(residue, other_residues):
             if contact:
                 break
         if contact:
-            contacts.append(other.get_id()[1])
-    
+            contacts.append(other)
+            #contacts.append(other.get_id()[1])
     if not contacts:
-        return [resseq]
+        return [[residue]]
+    elif len(contacts) == 1:
+        return [[residue, contacts[0]]]
     else:
         new_contacts = []
+        i = 0
+        while i < len(contacts):
+            new_contacts += find_mutuals(contacts[i],contacts[i + 1:])
+            i += 1
+        contacts = []
+        for item in new_contacts:
+            contacts.append([residue] + item)
         
-        
-        return new_contacts
+        return contacts
 
 def atomic_distance(atom_one, atom_two):
     '''
@@ -75,6 +84,7 @@ def get_hyperedges(pdbfile, modelnumber=0, chain_keys=[], no_hetero=True):
     and a list of chains.
     '''
     
+    start = time.time()
     structure = parser.get_structure('test', pdbfile)
     
     if len(structure) == 1:
@@ -100,30 +110,36 @@ def get_hyperedges(pdbfile, modelnumber=0, chain_keys=[], no_hetero=True):
                     continue
             residues.append(resi)
     
-    hyperedges = []
+    hyperedges = set()
     #Find all the mutually contacting residue side groups (hyperedge)
     while residues:
         resi = residues.pop(0)
-        for hyperedge in find_mutuals(resi, residues):
-            print(hyperedge)
+        for edge in find_mutuals(resi, residues):
+            if len(edge) > 1:
+                res_numbers = [i.get_id()[1] for i in edge]
+                hyperedge = frozenset(res_numbers)
+                is_subset = False
+                subbed = False
+                for he in hyperedges:
+                    if hyperedge.issubset(he):
+                        is_subset = True
+                        break
+                    if hyperedge.issuperset(he):
+                        subbed = he
+                if subbed:
+                    hyperedges.remove(subbed)
+                if not is_subset:
+                    hyperedges.add(hyperedge)
+    print('Hyperedges calculated in {0} seconds'.format(time.time() - start))
     return hyperedges
 
 ###Development testing section###
 
-get_hyperedges('./data/3EYC.pdb', chain_keys=['A'])
-structure = parser.get_structure('3EYC', './data/3EYC.pdb')
-model = structure[0]
-chain_a = model['A']
-residue = chain_a[13]
-residue.get_id()[1]
-ca = residue['CA']
-n = residue['N']
-
-
-
-
-
-
-
-
-
+#get_hyperedges('./data/3EYC.pdb', chain_keys=['A']) 
+#structure = parser.get_structure('3EYC', './data/3EYC.pdb')
+#model = structure[0]
+#chain_a = model['A']
+#residue = chain_a[13]
+#residue.get_id()[1]
+#ca = residue['CA'] 
+#n = residue['N']

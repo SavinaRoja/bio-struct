@@ -7,18 +7,41 @@ import time
 
 parser = PDBParser()
 
-CUTOFF = 4.6  # Threshold for residues contacting, must be at least this close
+PROXIMITY = 4.6  # Threshold for residues contacting, must be at least this close
 CONSTRICT = 35  # Threshold for residue contact sanity check
 
-backbone = ['N', 'CA', 'C', 'O']  # Protein backbone atom names
+#Default backbone atom definitions for the different biopolymers
+#Most crystal structures do not include hydrogen atoms unlike NMR structures,
+#it is wise in this case to either adjust the cutoff parameter accordingly or
+#to exclude hydrogens.
+PROTEIN_BACKBONE = ['N', 'CA', 'C', 'O']
+DNA_BACKBONE = ['P', 'OP1', 'OP2', 'O5\'', 'C5\'', 'C4\'', 'O4\'', 'C3\'',
+                'O3\'', 'C2\'','C1\'', 'H5\'', 'H5\'\'', 'H4\'', 'H3\'',
+                'H2\'', 'H2\'\'', 'H1\'', 'HO5\'']  # HO5' occurs at the ends
+RNA_BACKBONE = []
 
-def find_mutuals(residue, other_residues):
+def find_mutuals(residue, other_residues=[], proximity=PROXIMITY,
+                 constrict=CONSTRICT, exclude_backbone=True,
+                 exclude_hydrogens=True):
     '''
+    This provides the recursive core for finding mutual residue contacts. It
+    will return a list of all contact paths it found. These represent all
+    possible hyperedges, including many which are subsets of others. In
+    typical use, the highest order unique hyperedges are of interest, and the
+    results of this function will be slimmed down to those.
     
+    This function detects residue contacts between the residue argument and all
+    members of the other_residues argument. exclude_backbone is an optional
+    argument, which may use defaults provided in this module when set to True,
+    or may employ a custom atom backbone definition when supplied with such a
+    list. If set to False, no backbone atoms will be excluded.
+    
+    exclude_hydrogens will cause the script to overlook all hydrogen atoms,
+    these are most often found in NMR structures, 
     '''
-    #resseq = residue.get_id()[1]
+
     contacts = []
-    
+
     for other in other_residues:  # Check all other residues
         contact = False
         for resi_atom in residue:  # Iterate over all residue atoms
@@ -75,7 +98,9 @@ def atomic_distance(atom_one, atom_two):
     return math.sqrt(diff_sum)
     
 
-def get_hyperedges(pdbfile, modelnumber=0, chain_keys=[], no_hetero=True):
+def get_hyperedges(pdbfile, modelnumber=0, chain_keys=[], no_hetero=True,
+                   proximity=PROXIMITY, constrict=CONSTRICT,
+                   exclude_backbone=True, exclude_hydrogens=True):
     '''
     This function operates on a structure to compile a list of hyperedges. A
     hyperedge is defined as the mutual contact between two or more residues.
@@ -114,7 +139,10 @@ def get_hyperedges(pdbfile, modelnumber=0, chain_keys=[], no_hetero=True):
     #Find all the mutually contacting residue side groups (hyperedge)
     while residues:
         resi = residues.pop(0)
-        for edge in find_mutuals(resi, residues):
+        for edge in find_mutuals(resi, residues, proximity=proximity,
+                                 constrict=constrict,
+                                 exclude_backbone=exclude_backbone,
+                                 exclude_hydrogens=exclude_hydrogens):
             if len(edge) > 1:
                 res_numbers = [i.get_id()[1] for i in edge]
                 hyperedge = frozenset(res_numbers)
@@ -132,14 +160,3 @@ def get_hyperedges(pdbfile, modelnumber=0, chain_keys=[], no_hetero=True):
                     hyperedges.add(hyperedge)
     print('Hyperedges calculated in {0} seconds'.format(time.time() - start))
     return hyperedges
-
-###Development testing section###
-
-#get_hyperedges('./data/3EYC.pdb', chain_keys=['A']) 
-#structure = parser.get_structure('3EYC', './data/3EYC.pdb')
-#model = structure[0]
-#chain_a = model['A']
-#residue = chain_a[13]
-#residue.get_id()[1]
-#ca = residue['CA'] 
-#n = residue['N']

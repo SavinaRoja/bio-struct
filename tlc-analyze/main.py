@@ -12,10 +12,6 @@ def main():
         for he in get_hyperedges('./data/1XKI.pdb', chain_keys=['A']):
             out.write(he.__str__())
             out.write('\n')
-    with open('./processed/2LJJ_hyperedges.txt', 'w') as out:
-        for he in get_hyperedges('./data/2LJJ.pdb', chain_keys=['A']):
-            out.write(he.__str__())
-            out.write('\n')
 
 if __name__ == '__main__':
     print('running main')

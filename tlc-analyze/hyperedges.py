@@ -45,17 +45,25 @@ def find_mutuals(residue, other_residues=[], proximity=PROXIMITY,
     for other in other_residues:  # Check all other residues
         contact = False
         for resi_atom in residue:  # Iterate over all residue atoms
-            if resi_atom.get_name() in backbone:  # Skip backbone atoms
-                continue
-            for other_atom in other:  # Iterate over all other residue atoms
-                if other_atom.get_name() in backbone:  # Skip backbone atoms
+            if exclude_hydrogens:
+                if resi_atom.get_name()[0] == 'H':
                     continue
+            if exclude_backbone:
+                if resi_atom.get_name() in PROTEIN_BACKBONE:  # Skip backbone atoms
+                    continue
+            for other_atom in other:  # Iterate over all other residue atoms
+                if exclude_backbone:
+                    if other_atom.get_name() in PROTEIN_BACKBONE:  # Skip backbone atoms
+                        continue
+                if exclude_hydrogens:
+                    if other_atom.get_name()[0] == 'H':
+                        continue
                 dist = atomic_distance(resi_atom, other_atom)
                 #A sanity check for residue contacts, no pair of atoms should
                 #be this far apart in touching protein residues.
                 if dist >= CONSTRICT:
                     break
-                elif dist <= CUTOFF:
+                elif dist <= PROXIMITY:
                     contact = True
                     break
             if contact:

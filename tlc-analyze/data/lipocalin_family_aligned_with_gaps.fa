@@ -1,0 +1,1179 @@
+>lcl|1 gi|260656181|pdb|3EYC|A Chain A, New Crystal Structure Of Human Tear Lipocalin In Complex With 1,4-Butanediol In Space Group P21
+--------------------------------------------AS-----DEEIQDVSG
+-T-WYLKAMTVDR-EFP--E-MNLESVTPMTLTT-LEGGNLEAKVTML--------ISG-
+R----CQEVKAVLEKTD--EPGKYTA-------DGGK--HVAYIIRSHVKDHYI--FYSE
+GELH--GK-PV--RGVKLVGRDPKNNLEA-LE----DFEKAAGAR--GLSTESILIPRQ-
+SETCSPGSAWSHPQFEK-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|2 gi|20139234|sp|Q9NPH6.1|OBP2B_HUMAN RecName: Full=Odorant-binding protein 2b; AltName: Full=Odorant-binding protein IIb; Short=OBPIIb; Flags: Precursor
+-MKTLF-----LGVTLGL----------------------AAALSF-----TLEEEDITG
+-T-WYVKAMVVDK-DFP--EDRRPRKVSPVKVTA-LGGGKLEATFTFM--------RED-
+R----CIQKKILMRKTE--EPGKYSA-------YGGR--KLMYLQELPRRDHYI--FYCK
+DQHH--GG-LL--HMGKLVGRNSDTNREA-LE----EFKKLVQRK--GLSEEDIFTPLQ-
+TGSCVP---------EH-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|3 gi|20141968|sp|Q62471.2|VNS1_MOUSE RecName: Full=Vomeronasal secretory protein 1; AltName: Full=Lipocalin-3; AltName: Full=Vomeronasal secretory protein I; Short=VNSP I; Flags: Precursor
+-MRALL-------LIISF-CLVAV-----------LQAQDSSFLAF-----N--NGNFSG
+-K-WFLKALVSE--DDIPINK-----VSPMLILV-LNNGDIELSITHM--------IYD-
+Q----CLEVTTILEKTD--VPGQYLAFEGK---------THLQVQLSSVKGHYM--LYCD
+GEIE--G--MR-FLMTQLIGRDPQENLEA-LE----EFKVFTQIK--GLVAENLVILEQ-
+MEKCEPESFYELPSRPSE------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|4 gi|1718160|sp|P53715.1|LCN1_PIG RecName: Full=Lipocalin-1; AltName: Full=Tear lipocalin; Short=Tlc; AltName: Full=Tear prealbumin; Short=TP; AltName: Full=Von Ebner gland protein; Short=VEG protein; Flags: Precursor
+MMRALL-------LAIGL-GLVAA-----------LQAQEFPAVGQ-----P--LQDLLG
+-R-WYLKAMTSD--PEIPGKK--PESVTPLILKA-LEGGDLEAQITFL--------IDG-
+Q----CQDVTLVLKKTN--QPFTFTAYDGK---------RVVYILPSKVKDHYI--LYCE
+GELD--G--QE-VRMAKLVGRDPENNPEA-LE----EFKEVARAK--GLNPD-IVRPQQ-
+SETCSPGGN---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|5 gi|3121745|sp|O18873.1|ALL1_CANFA RecName: Full=Major allergen Can f 1; AltName: Full=Allergen Dog 1; AltName: Allergen=Can f 1; Flags: Precursor
+-MKTLL-------LTIGF-SLIAI-----------LQAQDTPALGK-----D--TVAVSG
+-K-WYLKAMTAD--QEVP-EK--PDSVTPMILKA-QKGGNLEAKITML--------TNG-
+Q----CQNITVVLHKTS--EPGKYTAYEGQ---------RVVFIQPSPVRDHYI--LYCE
+GELH--G--RQ-IRMAKLLGRDPEQSQEA-LE----DFREFSRAK--GLNQE-ILELAQ-
+SETCSPGGQ---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|6 gi|131649|sp|P08938.1|PURP_CHICK RecName: Full=Purpurin; Flags: Precursor
+--------MKYAQ---Y--VFLASIFSAVEYSLAQTC-----AVDSFSVKDNFDPKRYAG
+-K-WYALAKK-DP------EGLFLQDNISAEYTV-EEDGTMTASSKGRV------KLFG-
+F-WVICADMAAQYTVPDPTTPAKMYMTYQGLASYLSSGGDNYWVIDTDYDNYAI--TYAC
+RSLKEDGS-CD-DGYSLIFSRNPRGLPPA-IQ----RIVRQKQEE--ICMSGQFQPVLQS
+G-AC--------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|7 gi|137823|sp|P20289.1|VEGP1_RAT RecName: Full=Von Ebner gland protein 1; Short=VEG protein 1; Flags: Precursor
+-MKALL-------LTFGL-SLLAA-----------LQAQAFPTT-E-----E--NQDVSG
+-T-WYLKAAAWD--KEIPDKKFGSVSVTPMKIKT-LEGGNLQVKFTVL--------IAG-
+R----CKEMSTVLEKTD--EPAKYTAYSGK---------QVLYIIPSSVEDHYI--FYYE
+GKIH--R--HH-FQIAKLVGRDPEINQEA-LE----DFQSVVRAG--GLNPDNIFIPKQ-
+SETCPLGSN---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|8 gi|27923795|sp|Q8SQ30.1|LLPB_MACEU RecName: Full=Late lactation protein B; Short=LLP-B; Flags: Precursor
+-MKVLF-------LTIAL-SLFSI-----------LQAQDSSSS---------E-EQFEG
+-T-YFVKAIVTD--SEFFEKNK-PKALSPLTVTH-LSNGDLEAKFTTN--------MNG-
+I----CEEIKMKFEKTD--KPGIFSTNDGS------R--QVL-IEKTSVRDHWI--LFCE
+GELH--G--MQ-VRIAKLLGPHTDENPKA-FQ----EFKKFVSLK--RFNEEKINIPRQ-
+TETCI-PEHV--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|9 gi|3122324|sp|Q29144.1|LLP_TRIVU RecName: Full=Late lactation protein; Short=LLP; Flags: Precursor
+-MKVLF-------FTIAL-SLFSI-----------LHADDVAFS---------AFTPSEG
+-T-YYVQVIAVD--KEFPEEEI-PRDMSPLTIMY-LDDGKMEARFTMK--------KDD-
+N----CEEINIMLEKTA--DPRKITMNRRL------R--YTCAAVRTSKQKHWI--LVCP
+REFQ--G--ET-IRMAKLVGPNTDKNPKA-LE----DFYRFIYRE--RFDKRRIITPKQ-
+TEACA-PEHA--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|10 gi|125950|sp|P20462.1|LLPA_MACEU RecName: Full=Late lactation protein A; Short=LLP-A; Flags: Precursor
+-MRVLF-------LTISL-SLFSI-----------IHADDFAFS---------EFKPSEG
+-T-YYVQVIAVD--KEFPEDEI-PRDISPLTITY-LNNGKMEAKFTVK--------KDN-
+N----CEEINLTLEKID--EPRKITTTRHL------H--HICDTVRTSEEKYWI--LSCV
+REFQ--G--TQ-IREAELVGPNTDENPKA-LE----DFYRFINRE--RFVERRIITPRQ-
+TEACT-SENA--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|11 gi|125916|sp|P11944.1|LACB_MACGI RecName: Full=Beta-lactoglobulin; Short=Beta-LG
+--------------------------------------VENIRSKN-----DLGVEKFVG
+-S-WYLREAAKT--MEFSIPLF---DMDIKEVNL-TPEGNLELVLLEK---------TD-
+R----CVEKKLLLKKTK--KPTEFEIYISSE----SS--YTFCVMETDYDSYFL--FCLY
+NISD--R---E-KMACAHYVRRIEENKG--MN----EFKKILRTL--AMPYTVI-EVRT-
+RDMCHV------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|12 gi|75058766|sp|O77511|O77511_PAPCY Beta-lactoglobulin I
+-MQCLL-------LTLGV-ALICG-----------VWAINSPQTMQ-----DVELPKLAG
+-T-WHSMAMAASDFSLLETKEA-PLRIYISSLQP-TPEGNLEIVLRRWSQKQSPFRDSN-
+Q----CIEEKIIAEKTE--NPIEFKINYL------DE--NRIYLFNTDGSKYLF--LCLE
+STR------RQ-NLACQYLARTLEVDDKV-MA----EFISFLKTL--PVHMQIFLDMTQ-
+AE-----EQCRV------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|13 gi|130701|sp|P09466.2|PAEP_HUMAN RecName: Full=Glycodelin; Short=GD; AltName: Full=Placental protein 14; Short=PP14; AltName: Full=Pregnancy-associated endometrial alpha-2 globulin; Short=PAEG; Short=PEG; AltName: Full=Progestagen-associated endometrial protein; AltName: Full=Progesterone-associated endometrial protein; Flags: Precursor
+-MLCLL-------LTLGV-ALVCG-----------VPAMDIPQTKQ-----DLELPKLAG
+-T-WHSMAMATNNISLMATLKA-PLRVHITSLLP-TPEDNLEIVLHRW--------ENN-
+S----CVEKKVLGEKTE--NPKKFKINYT------VA--NEATLLDTDYDNFLF--LCLQ
+DTTT--P--IQ-SMMCQYLARVLVEDDEI-MQ----GFIRAFRPL--PRHLWYLLDLKQ-
+ME-----EPCRF------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|14 gi|125913|sp|P13613.1|LACB1_EQUAS RecName: Full=Beta-lactoglobulin-1; Short=Beta-LG-1; AltName: Full=Beta-lactoglobulin I, major monomeric
+-TNIPQ-------------------------------------TMQ-----DLDLQEVAG
+-K-WHSVAMAASD-ISLLDSEEAPLRVYIEKLRP-TPEDNLEIILREG--------ENK-
+G----CAEKKIFAEKTE--SPAEFKI------NYLDE--DTVFALDSDYKNYLF--LCMK
+NAAT--PG-Q--SLVCQYLARTQMVDEEI-ME----KFRRALQPL--PGRVQIVPDLTRM
+AERCRI------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|15 gi|125904|sp|P19647.1|LACB2_EQUAS RecName: Full=Beta-lactoglobulin-2; Short=Beta-LG-2; AltName: Full=Beta-lactoglobulin II, minor monomeric
+-TDIPQ-------------------------------------TMQ-----DLDLQEVAG
+-R-WHSVAMVASD-ISLLDSESAPLRVYVEELRP-TPEGNLEIILREG--------ANH-
+V----CVERNIVAQKTE--DPAVFTV------NYQGE--RKISVLDTDYAHYMF--FCVG
+PCLP--SA-EH-GMVCQYLARTQKVDEEV-ME----KFSRALQPL--PGHVQIIQDPSGG
+QERCGF------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|16 gi|125905|sp|P21664.1|LACB2_FELCA RecName: Full=Beta-lactoglobulin-2; Short=Beta-LG-2; AltName: Full=Beta-lactoglobulin II
+-ATLPP-------------------------------------TME-----DLDIRQVAG
+-T-WHSMAMAASD-ISLLDSETAPLRVYVQELRP-TPRDNLEIILRKR--------ENH-
+A----CIEGNIMAQRTE--DPAVFMV------DYQGE--KKISVLDTDYTHYMF--FCME
+-APA--PG-TENGMMCQYLARTLKADNEV-ME----KFDRALQTL--PVHIRIILDLTQG
+KEQCRV------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|17 gi|462472|sp|P33685.1|LACB1_CANFA RecName: Full=Beta-lactoglobulin-1; Short=Beta-LG-1; AltName: Full=Beta-lactoglobulin I
+-IVVPR-------------------------------------TME-----DLDLQKVAG
+-T-WHSMAMAASD-ISLLDSETAPLRVYIQELRP-TPQDNLEIVLRKW--------EDG-
+R----CAEQKVLAEKTE--VPAEFKI------NYVEE--NQIFLLDTDYDNYLF--FCEM
+NADA--PQ-QS--LMCQCLARTLEVDNEV-ME----KFNRALKTL--PVHMQL-LNPTQA
+EEQCLI------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|18 gi|75058963|sp|O97877|O97877_FELCA Beta-lactoglobulin
+---------------------------------------------D-----GLDLQKVAG
+-T-WHSMAMAASD-ISLLDSETAPLRVYVQELRP-TPRDNLEIILRKW--------EHG-
+R----CVQKKVWAEKTE--LLAEFKI------SYLDE--NELIVLDTDYENYLF--FCLE
+NTDA--PG-QN--LVCQCLTRTLKADNEV-ME----KFDRALQTL--PVDVRLFFDPTQV
+AEQCRV------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|19 gi|81884017|sp|Q63613|Q63613_RAT Odorant-binding protein
+-MKSRL-------LTVLLLGLMAV-----------LKAQEAPPD-------D--QEDFSG
+-K-WYTKATVCD--RNHTDGKR-PMKVFPMTVTA-LEGGDLEVRITFR--------GKG-
+H----CHLRRITMHKTD--EPGKYTTFKGK---------KTFYTKEIPVKDHYI--FYIK
+GQRH--G--KS-YLKGKLVGRDSKDNPEA-ME----EFKKFVKSK--GFREENITVPEL-
+LDECVPGSD---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|20 gi|62286940|sp|Q8K1H9.1|LCN13_MOUSE RecName: Full=Epididymal-specific lipocalin-13; Flags: Precursor
+-MKSLL-------LTILLLGLVAV-----------LKAQEAPPD-------D--LVDYSG
+-I-WYAKAMVHN--GTLPSHKI-PSIVFPVRIIA-LEEGDLETTVVFW--------NNG-
+H----CREFKFVMKKTE--EPGKYTAFHNT---------KVIHVEKTSVNEHYI--FYCE
+GRHN--GT-SS-FGMGKLMGRDSGENPEA-ME----EFKNFIKRM--NLRLENMFVPEI-
+GDKCVE-SD---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|21 gi|3123036|sp|Q62472.1|VNS2_MOUSE RecName: Full=Vomeronasal secretory protein 2; AltName: Full=Lipocalin-4; AltName: Full=Vomeronasal secretory protein II; Short=VNSP II; Flags: Precursor
+-MKSLL-------LTVTLSSLVAT-----------LQTYDDLPFIS-----E--EDKLSG
+-V-WFIKATVSQR----REVEGETLVAFPIKFTC-PEEGTLELRHTLA--------SKG-
+E----CINVGIRLQRTE--EPGQYSAFWGHT---------LFYIYDLPVKDHYI--IYCE
+SHPF--Q--KI-SQFGYLIGKYPEENQDT-LE----VFKEFIQHK--GFLQEKIGVPEQ-
+RDRCIPIHDSAHQDHKC-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|22 gi|1346407|sp|P04119.4|LACB_PIG RecName: Full=Beta-lactoglobulin-1A/1C; AltName: Full=Beta-lactoglobulin IA/IC; Short=Beta-LG; Flags: Precursor
+-MRCLL-------LTLGL-ALLCG-----------VQAVEVTPIMT-----ELDTQKVAG
+-T-WHTVAMAVSDVSLLDAKSS-PLKAYVEGLKP-TPEGDLEILLQK--------REND-
+K----CAQEVLLAKKTD--IPAVFKINAL------DE--NQLFLLDTDYDSHLL--LCME
+NSAS--P--EH-SLVCQSLARTLEVDDQI-RE----KFEDALKTL--SVPMRIL--PAQ-
+LE-----EQCRV------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|23 gi|75039539|sp|Q28388.1|UCAL_HORSE RecName: Full=Uterocalin; AltName: Full=Concepticalin; AltName: Full=Equicalin; AltName: Full=Lipocalin P19; Flags: Precursor
+-MNLLL---LAMGLILPRR-PH---------------ALHMGPGDP-----NFDEKLVKG
+-K-WFSVALASNE-PKF-IAKDTDMKFFIHKIQV-TPE-SLQFHFHRK--------VRG-
+M----CVPTMMTAHKTK--KKFQYTV------NHSGH--KTIFLEKVDPKHFVI--FCAH
+SMKH--GK-ET--VVVTLFSRTPTVSPDV-MW----MFKKYCKTH--GIHTSNIVDLTQ-
+TDRCLHARH---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|24 gi|20177989|sp|Q9D267.1|LCN9_MOUSE RecName: Full=Epididymal-specific lipocalin-9; AltName: Full=MUP-like lipocalin; Flags: Precursor
+-MVLLL----VLGLVLSLATAQ---------------FNLHTAVRR-----DYNLARISG
+-T-WYLDSIASDN-MTR-IEENGDLRLFIRNIKL-LNNGSLQFDFHFM--------LQG-
+E----CVAVTMVCEKTK--NNGEFSV------AYEGK--NKVLLLETDYSMYII--FYMQ
+NIKN--GT-KT--QVLALYGRSILLDKTH-QR----EFENICNLY--GLDSQNIIDMTK-
+KDFCFL------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|25 gi|3122574|sp|P81245.1|OBP_PIG RecName: Full=Odorant-binding protein; Short=OBP
+---------------------------------------QE---PQ----PEQDPFELSG
+-K-WITSYIGSSD--LEKIGENAPFQVFMRSIEFDDKESKVYLNFFSK--------ENG-
+I----CEEFSLIGTKQE--GN-TYDV---NYAGNN-----KFVVSYASETALII--SNIN
+VDEE--GD-KT--IMTGLLGKGTDIEDQD-LE----KFKEVTREN--GIPEENIVNIIER
+-DDCPA------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|26 gi|75047049|sp|Q8HZN2|Q8HZN2_ELEMA Odorant-binding protein
+----------------MLEEPLLDEYCS----------------------------EISG
+-T-WYTIYEASAN--IEVLSENSPLRGYFRLIKCHPDGETLLVIFYTK--------ENG-
+T----CQLYNKQGQRID--EN-GYTT---NYEGKV-----DFSFIQQAKDFLLI--HAIN
+KNEE--GN-VF--EVVGALAREKDISEEN-YQ----AFLEFAVEN--GIPKENIVKVIDT
+-DTCPETLT---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|27 gi|129658|sp|P15399.1|PBAS_RAT RecName: Full=Probasin; Short=PB; AltName: Full=M-40; Flags: Precursor
+-----------------MRVILLLLTLDVLG------VSSM---MT----DKNLKKKIEG
+-N-WRTVYLAASS--VEKINEGSPLRTYFRRIECGKRCNRINLYFYIK--------KGA-
+K----CQQFKIVGRRSQ---D-VYYA---KYEGST-----AFMLKTVNEKILLF--DYFN
+RNRR--ND-VT--RVAGVLAKGRQLTKDE-MT----EYMNFVEEM--GIEDENVQRVMDT
+-DTCPNKIRIR-------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|28 gi|6225831|sp|O08976.2|PBAS_MOUSE RecName: Full=Probasin; Short=PB; Flags: Precursor
+----------------MMRVIILLLTLHVLG------VSSV---MS-------LKKKIDG
+-P-WQTIYLAAST--MEKINEGSPLRTYFRHILCGRRCNQVYLYFFIK--------KGT-
+K----CQLYKVIGRKKQ---E-VYYA---QYEGSI-----AFMLKMVNEKILLF--HYFN
+KNRR--ND-VT--RVAGVLAKGKQLNKEE-MT----EFMNLVEEM--GIEEENVQRIMDT
+-DNCPSKIKP--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|29 gi|2497701|sp|Q28133.1|ALL2_BOVIN RecName: Full=Allergen Bos d 2; AltName: Full=Dander major allergen BDA20; AltName: Full=Dermal allergen BDA20; AltName: Allergen=Bos d 2; Flags: Precursor
+-----------------MKAVFLTLLFGLVC------TAQE---TP----AEIDPSKIPG
+-E-WRIIYAAADN--KDKIVEGGPLRNYYRRIECINDCESLSITFYLK--------DQG-
+T----CLLLTEVAKRQE--GY-VYVL---EFYGTN-----TLEVIHVS-ENMLV--TYVE
+NYDG--ER-IT--KMTEGLAKGTSFTPEE-LE----KYQQLNSER--GVPNENIENLIKT
+-DNCPP------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|30 gi|81916647|sp|Q99MG7|Q99MG7_MESAU Lipocalin (Female-specific lacrimal protein)
+----------------MVKFLLLALALGVSC------AHYQ---N-----LEVSPSEVDG
+-K-WYSLYIAADN--KEKVSEGGPLRAYIKNVECIDECQTLKITFYTK--------VEG-
+V----CQEHTIVGRKGE--DG-KYIT---DFSGQN-----YFHIVEKSDDTMTF--HNVN
+VDDS--GK-T---NVILVVGRGESSSIEQ-KQ----RFEKTAEEY--DIPKENIEDLVPT
+-DNCDQ------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|31 gi|81905017|sp|Q9D3N5|Q9D3N5_MOUSE 6 days neonate head cDNA, RIKEN full-length enriched library, clone:5430402E10 product:similar to ODORANT-BINDING PROTEIN 1F
+----------------MVKFLLIVIALGVSC------AHHE---S-----LDISPSEVNG
+-D-WRTLYIAADK--VEKVKMNGDLRAYFEHMECNDDCGTLKVKFHVQ--------MNG-
+K----CQTHTVVGEKQE--DG-RYTT---DYSGRN-----YFEVVMKEDGALFF--HNVN
+VDES--GQ-ET--NVILVAGKGETLSKAQ-KQ----ELGKLVKEY--NIPKENIQHLAPT
+-DTCNQ------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|32 gi|129023|sp|P08937.1|OBP_RAT RecName: Full=Odorant-binding protein; Short=OBP; Flags: Precursor
+----------------MVKFLLIVLALGVSC------AHHE---N-----LDISPSEVNG
+-D-WRTLYIVADN--VEKVAEGGSLRAYFQHMECGDECQELKIIFNVK--------LDS-
+E----CQTHTVVGQKHE--DG-RYTT---DYSGRN-----YFHVLKKTDDIIFF--HNVN
+VDES--GR-R---QCDLVAGKREDLNKAQ-KQ----ELRKLAEEY--NIPNENTQHLVPT
+-DTCNQ------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|33 gi|81861688|sp|P97336|P97336_MOUSE Odorant binding protein Ia
+--------------------------------------------------------AMEG
+-P-WKTVAIAADR--VDKIERGGELRIYCRSLTCEKECKEMKVTFYVN--------ENG-
+Q----CSLTTITGYLQE--DGKTYKT---QFQGNN-----RYKLVDESPENLTF--YSEN
+VDRA--DR-KT--KLLFILGHGPLTSEQK--E----KFAELAEEK--GIPAGNIREVLIT
+-DYCPE------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|34 gi|1168469|sp|P09465.3|APHR_CRICR RecName: Full=Aphrodisin; Flags: Precursor
+----------------MVKILLLALVFSLAH------AQDF---A-----------ELQG
+-K-WYTIVIAADN--LEKIEEGGPLRFYFRHIDCYKNCSEMEITFYVI--------TNN-
+Q----CSKTTVIGYLKG--NG-TYQT---QFEGNN-----IFQPLYITSDKIFF--TNKN
+MDRA--GQ-ET--NMIVVAGKGNALTPEE-NE----ILVQFAHEK--KIPVENILNILAT
+-DTCPE------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|35 gi|20178087|sp|P81608.1|SAL_PIG RecName: Full=Salivary lipocalin; Short=SAL; Flags: Precursor
+-MKLLL----LLCLGLTLASSH--------------KEAGQDVVTS-----NFDASKIAG
+-E-WYSILLASDA-KEN-IEENGSMRVFVEHIRV-LDNSSLAFKFQRK--------VNG-
+E----CTDFYAVCDKVG---DGVYTV------AYYGE--NKFRLLEVNYSDYVI--LHLV
+NVNG--D--KT-FQLMEFYGRKPDVEPKL-KD----KFVEICQQY--GIIKENIIDLTK-
+IDRCFQLRGSGGVQESSAE-----------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|36 gi|3121758|sp|Q95182.1|ALL1_HORSE RecName: Full=Major allergen Equ c 1; AltName: Allergen=Equ c 1; Flags: Precursor
+-MKLLL----L-CLGLILVCAQ--------------QEENSDVAIR-----NFDISKISG
+-E-WYSIFLASDV-KEK-IEENGSMRVFVDVIRA-LDNSSLYAEYQTK--------VNG-
+E----CTEFPMVFDKTE--EDGVYSL------NYDGY--NVFRISEFENDEHII--LYLV
+NFDK--D--RP-FQLFEFYAREPDVSPEI-KE----EFVKIVQKR--GIVKENIIDLTK-
+IDRCFQLRGNGVAQA---------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|37 gi|127533|sp|P02761.1|MUP_RAT RecName: Full=Major urinary protein; Short=MUP; AltName: Full=Allergen Rat n I; AltName: Full=Alpha(2)-euglobulin; AltName: Full=Alpha-2u-globulin; AltName: Full=alpha-2u globulin PGCL1; AltName: Allergen=Rat n 1; Contains: RecName: Full=15.5 kDa fatty acid-binding protein; Short=15.5 kDa FABP; Flags: Precursor
+-MKLLL---LLLCLGLTLVCGH---------------AEEASSTRG-----NLDVAKLNG
+-D-WFSIVVASNK-REK-IEENGSMRVFMQHIDV-LEN-SLGFKFRIK--------ENG-
+E----CRELYLVAYKTP--EDGEYFV------EYDGG--NTFTILKTDYDRYVM--FHLI
+NFKN--GE-TF--QLMVLYGRTKDLSSDI-KE----KFAKLCEAH--GITRDNIIDLTK-
+TDRCLQARG---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|38 gi|127532|sp|P04939.1|MUP3_MOUSE RecName: Full=Major urinary protein 3; Short=MUP 3; AltName: Full=Non-group 1/group 2 MUP15; Flags: Precursor
+-MKLLLPLLLLLCLELTLVCIH---------------AEESSSMER-----NFNVEQISG
+-Y-WFSIAEASYE-REK-IEEHGSMRAFVENITV-LEN-SLVFKFHLI--------VNE-
+E----CTEMTAIGEQTE--KAGIYYM------NYDGF--NTFSILKTDYDNYIM--IHLI
+NKKD--GK-TF--QLMELYGREPDLSLDI-KE----KFAKLCEEH--GIIRENIIDLTN-
+VNRCLEARE---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|39 gi|132408|sp|P06172.1|RET4_XENLA RecName: Full=Retinol-binding protein 4; AltName: Full=Plasma retinol-binding protein; Short=PRBP; Flags: Precursor
+--------MERKV---L--GLLIALGFLGSCLAEKNC-----RVDNFEVMKDFNKERYAG
+-V-WYAVAKK-DP------EGLFLLDNIAANFKI-EDNGKTTATAKGRV------RILD-
+K-LELCANMVGTFIETN--DPAKYRMKYHGALAILERGLDDHWVVDTDYTTYAI--TYAC
+RRRNLDGT-CR-DSYSFVFSRDINGLPSE-SQ----RIVRRRQEQ--LCLDRKYRVVVHN
+G-YCETN-----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|40 gi|82247601|sp|Q9I901|Q9I901_SPAAU Retinol-binding protein
+---------MTRM---L--RYVVALCLLAVSWAQ-DC-----QVANIQVMQNFDKTRYAG
+-T-WYAVGKK-DP------EGLFLIDNIVAQFTI-HEDGAMTATAKGRV------IILN-
+N-WEMCADMMATFETTP--DPAKFRMRYWGAASYLQTGNDDHWVIATDYDNYAI--HYSC
+RVVDSDGT-CL-DSYSFVFSRHATGLRQE-DV----EIIVQKKTE--LCLLHKYRRVAHT
+G-FCDSS-----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|41 gi|267584|sp|P24774.2|RET4A_ONCMY RecName: Full=Retinol-binding protein 4-A; AltName: Full=Plasma retinol-binding protein 1; Short=PRBP-1; AltName: Full=Plasma retinol-binding protein II; Short=PRBP-I
+---------------------------------S-DC-----QVSNIQVMQNFDRSRYTG
+-R-WYAVAKK-DP------VGLFLLDNVVAQFSV-DESGKVTATAHGRV------IILN-
+N-WEMCANMFGTFEDTP--DPAKFKMRYWGAASYLQTGNDDHWVIDTDYDNYAI--HYSC
+REVDLDGT-CL-DGYSFIFSRHPTGLRPE-DQ----KIVTDKKKE--ICFLGKYRRVGHT
+G-FCESS-----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|42 gi|117330|sp|P80007.1|CRA2_HOMGA RecName: Full=Crustacyanin-A2 subunit
+--------------------------------DGIPSFVTAGKCASVANQDNFDLRRYAG
+-R-WYQTHIIENA-------YQPVTRCIHSNYEYSTNDYGFKVTTAGF--------NPND
+E---YLKIDFKVYPTKE-FPAAHMLIDAPSV--FAAP----YEVIETDYETYSC--VYSC
+ITTD---NYKS--EFAFVFSRTPQTSGPA-VE----KTAAVFNKN--GVEFSKFVPVSH-
+TAECVYRA----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|43 gi|74934096|sp|Q8T5Q9|Q8T5Q9_HYPCU Hyphantrin
+------------------MWRLYLLKFLATASAQIPS---LGWCPDFQAMANFNMDRFLG
+-T-WYEAERY-FT------VSELGTRCVTTHYTA-TPEGRILITNEITN------SITG-
+F-KRLMEGHLQMVGR-E--GEGRVLVKYSSLPLPYDF---EYSILDTDYDTYAV--MWAC
+SGI---GP-VH-TQNTWLLSRERLPSMSV-MQ----NAYAVLDKF--KISRTFFQKTNQA
+D--CQF----------------------YQHRLPQM--N---------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|44 gi|74866083|sp|Q8SXR1|Q8SXR1_DROME RE67583p (CG33126-PA)
+--------MNHHSSSHLLLLISVVFGAVWVAHAQVP---FPGKCPDVKLLDTFDAEAYMG
+-V-WYEYAAY-PF------AFEIGKKCIYANYSL-IDNSTVSVVNAA--------I----
+--NRFTGQPSNVTGQAKVLGPGQLAVAFYPTQPLTK---ANYLVLGTDYESYAV--VYSC
+T-SV-TPL-AN-FKIVWILTRQREPSAEA-VD----AARKILEDN----DVSQAFLIDTV
+QKNCPRLDGNGTGLAGEDGLDVDDFVSTTVPNAIE--KA---------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|45 gi|114034|sp|P05090.1|APOD_HUMAN RecName: Full=Apolipoprotein D; Short=Apo-D; Short=ApoD; Flags: Precursor
+-M----------VMLLLLLSALAGLFGAAEGQAFHLGKCPNPPVQE-----NFDVNKYLG
+-R-WYEIEKIP--------TTFENGRCIQANYSL-MENGKIKVLNQEL--------RAD-
+GTVNQIEGEATPVNLT---EPAKLEV---KFSWFMPS--APYWILATDYENYAL--VYSC
+TCII--QL-FH-VDFAWILARNPNLPPET-VD----SLKNILTSN--NIDVKKMTVTDQ-
+-VNCPKLS----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|46 gi|1703341|sp|P51909.1|APOD_CAVPO RecName: Full=Apolipoprotein D; Short=Apo-D; Short=ApoD; Flags: Precursor
+-M----------GMMLLLLSMLAGLVAEAEGQAFHFGKCPNPPVQE-----NFDLNKYLG
+-R-WYEIEKIP--------VSFEKGNCIQANYSL-KENGRVKVLNQEL--------RPD-
+GTVNQIEGEATHSNIT---EPAKLGV---KFFQLMPS--APYWVLATDYDNYAL--VYSC
+TNII--WL-FH-VDHIWILGRNRYLPQET-VT----YLKDILTSN--NIDIEKMTLTDQ-
+-ANCPDFL----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|47 gi|114035|sp|P23593.1|APOD_RAT RecName: Full=Apolipoprotein D; Short=Apo-D; Short=ApoD; Flags: Precursor
+-M----------ATMLLLLATLAGLFTTTEGQSFHLGKCPSPPVQE-----NFDVKKYLG
+-R-WYEIEKIP--------VSFEKGNCIQANYSL-MENGNIKVLNKEL--------RPD-
+GTLNQVEGEAKQSNMS---EPAKLEV---QFFSLMPP--APYWILATDYESYAL--VYSC
+TTFF--WF-FH-VDYVWILGRNPYLPPET-IT----YLKYILTSN--DIDIAKITTKDQ-
+-ANCPDFL----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|48 gi|1346419|sp|P49291.1|LAZA_SCHAM RecName: Full=Lazarillo protein; Flags: Precursor
+-----------MIRRGLLSVTAALVLLSVSC-----SAQETMGCADRTAINDFNATLYMG
+-K-WYEYAKMGSM------PYEEGGVCVTAEYSM--SSNNITVVNSMKDN-----TTHEV
+N---TTTGWAEFASELH--TDGKLSVHFPNSPSVGNY-----WILSTDYDNYSI--VWSC
+VKRP-DSA-AS-TEISWILLRSRNSSNMT-LE----RVEDELKNL--QLDLNKYTKTEQS
+AKYCAGAEHVVGAMLSVAIASLFALLH---------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|49 gi|74894593|sp|Q00629|Q00629_MANSE Insecticyanin a form
+------------------MQRFLVFTIVAVATAAAGDIFYPGYCPEVKPVDDFDLSAFAG
+-A-WHEIAKL-PL------ENENEGKCTVAEYKY--DGKKASVYNSF--------VING-
+V-KEYMEGDLEIAPDAKLTKQGKYVMTFKFGPRVVV---QVPWVLATDYKNYAI--NYNC
+NYHP-DKK-AH-SIHAWVLSRNKVLEGNT-KE----VVDNVLKTFSHLIDASKFMSNEFS
+EAAC-------------------QYSTTYSLTGPD--RH---------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|50 gi|74938181|sp|Q95P97|Q95P97_BOMMO Bombyrin precursor
+------------------MLRLVLLTLLAAATAEV---IHEGTCPELKPVNNFNLTAYQG
+-I-WYEISKF-PN------ESEKNGKCSSAEYKL--EGDVVKVKNVH--------IIDG-
+V-KKYIEGTAKLTDDAN--KAAKLTVTFKFGEISRD---GSVQVLATDYNNYAI--AYNC
+KYDD-KKK-SH-QVFVWILSRNKKLEGDA-KT----AVDNFIKEHSKEIDSSKLVHTDFS
+EEAC-------------------KFTISSVITEHG--KH---------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|51 gi|74894890|sp|Q24996|Q24996_GALME Gallerin
+------------------MLRMVLFAFVAAASASA---VHEGKCPDFKPVDNFNLTAYQG
+-V-WYEISKT-PN------DAEKNGKCGQAEYKL--EGEVVKVKNSH--------VVDG-
+V-QKYVEGTAKFAEDAN--KSAKLLVTLTYGAVNRE---SPLNVIATDYQNYAI--AYTC
+KYDE-KSK-SH-NDSIWILSRAKKLEGDA-KT----AVDNYLKEHAKEIDASKLVQTDFS
+EEAC-------------------KFTSTSAVTEPQTKKQ---------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|52 gi|74933972|sp|Q8T118|Q8T118_SAMCR Biliverdin binding protein-I precursor
+----------------MKMLSLILMT-IAVASAEVVL---DGACPHVQPVKDFDINAYAG
+-K-WYEIKKL-PL------ANEGKGQCAIATYTL--DGDSLKVKNSHV--------ING-
+V-EKYVLGVAKKADDAN--GSGKLVLTVTVGKFSRVA---PLWILTTDYTNYAV--SYSC
+KYNE-KNN-TH-RLNIWVLSKSKSLEGEA-KA----AVDSFLSTNFGNVDDSKFITIDFS
+ENACKTD-------------------SSYVYTAPVT--Q---------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|53 gi|74933973|sp|Q8T119|Q8T119_SAMCR Biliverdin binding protein-II precursor
+------------------MWALFIMS-LAVASADVIL---DGPCPNFKGVSNFDTKAYQG
+-A-WYQITKL-TI------GNEAHGECGIGEYTV--VGDVLKVNHSHI--------VDG-
+V-RKTLWGVLSRADESN--GSGKLWLSTVAGDNVRIF---PYWVVSTDYKNYSI--VFSC
+VYHK-KSD-VH-TVHLWVLSRTKILSEGA-ST----IVNNFLKDHAREFPENRFVENDVS
+NEACSYR-------------------KTSAYTIPVG--I---------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|54 gi|20178282|sp|P21760.2|EXFAB_CHICK RecName: Full=Extracellular fatty acid-binding protein; Short=Ex-FABP; AltName: Full=Protein Ch21; AltName: Full=Quiescence-specific protein; AltName: Full=p20K; Flags: Precursor
+-MRTLA-----LSLALALLCLL---------------HTEAAATVP-------DRSEVAG
+-K-WYIVALASNT-DFF-LREKGKMKMVMARISF-LGEDELEVSYAAP--------SPK-
+G----CRKWETTFKKTS--DDGELYY------SEEAE--KTVEVLDTDYKSYAV--IFAT
+RVKD--GR-TL--HMMRLYSRSREVSPTA-MA----IFRKLARER--NYTDEMVAVLPS-
+QEECSVDEV---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|55 gi|82216128|sp|Q8UWH4|Q8UWH4_CHICK CALII
+-MQPLPQ-HPD--PKARMTAVLPSLVL-TLLCLLRVGA--EVPVQL-----DFDTKKFAG
+-M-WHMMAAVSNC-PVF-LGMKDKMTSSATAVSF-TPEGHMTMETVIP--------LPE-
+----ECKKIMMLFQQSG--QAGHYIG---TEK--GEK--RDLRVMDTDYEHYAI--VYSQ
+QKDS--QE-PS--TMLQLYTRNQDMSPQL-LQ----KFKELFHSM--GLTEDMLVVLPH-
+SDRCAKTQK---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|56 gi|75067994|sp|Q9N2C2|Q9N2C2_RABIT Prostaglandin D synthase
+-MAASR----GLWMGLVLLGVL---------GVLQTRAQDPVSVQP-----EFQQDKFLG
+-R-WFTAGLASNS-SWF-REKKAALSMCRSTVAP-TEEGALNITSTFL--------RKN-
+Q----CETRTLLLQPAG--RPGRYT---YTSPHWGST--YSVWVVDTDYKEFAL--LYSE
+GAKG--PG-QD-FRMATLYSRSQTPGAEL-KQ----KFMAFCKAQ--GFTEDIVVFLPR-
+NDKCMEEQD---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|57 gi|2497698|sp|Q29487.1|PTGDS_FELCA RecName: Full=Prostaglandin-H2 D-isomerase; AltName: Full=Glutathione-independent PGD synthase; AltName: Full=Lipocalin-type prostaglandin-D synthase; AltName: Full=Prostaglandin-D2 synthase; Short=PGD2 synthase; Short=PGDS; Short=PGDS2; Flags: Precursor
+-MAALH----TLWMGLVLLGVL---------GVLQTRAQAQVSRQP-----NFQQDKFLG
+-R-WFTSGLASNS-SWF-REKKNALSMCISVVAP-SAEGGLNLTTTFL--------RKD-
+Q----CETRTLLLRPAE--TPGCYS---YTSPHWGST--HDVWVVATDYEEYAL--LYTA
+GTKS--PG-QD-FHMATLYSRTQTPRAEV-KE----KFSTFAKTR--GFTEDAIVFLPK-
+TERCMEEHR---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|58 gi|2497700|sp|Q29095.1|PTGDS_PIG RecName: Full=Prostaglandin-H2 D-isomerase; AltName: Full=Glutathione-independent PGD synthase; AltName: Full=Lipocalin-type prostaglandin-D synthase; AltName: Full=Prostaglandin-D2 synthase; Short=PGD2 synthase; Short=PGDS; Short=PGDS2; Flags: Precursor
+-MATPS----SLWLGLALLGTL---------GVLQTPA--QASLQP-----NFQEDKFLG
+-R-WFTSGLASNS-SWF-LEKKKVLSMCKSLVAP-APDGGFNLTSTFL--------RKD-
+Q----CVTRTLMLRPAG--PPGCYS---YTSPHGGSN--LEVSVVETDYKNYAL--LHTE
+SGPS--PG-PA-FRMATLYSRSQAPGAAV-RE----KFTAFAKAR--GFTEDGIVFLPR-
+NEKCLEEHE---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|59 gi|3914330|sp|O02853.1|PTGDS_BOVIN RecName: Full=Prostaglandin-H2 D-isomerase; AltName: Full=Glutathione-independent PGD synthase; AltName: Full=Lipocalin-type prostaglandin-D synthase; AltName: Full=Prostaglandin-D2 synthase; Short=PGD2 synthase; Short=PGDS; Short=PGDS2; Flags: Precursor
+-MATPN----RLWMALLLLGVL---------GVLQTPAPAQAALQP-----NFEEDKFLG
+-R-WFTSGLASNS-SWF-LEKKKVLSMCKSVVAP-AADGGLNLTSTFL--------RKD-
+Q----CETRTLLLRPAG--PPGCYS---YTSPHWSST--HEVSVAETDYETYAL--LYTE
+GVRG--PG-QD-FRMATLYSRSQNPRAEV-KE----HFTTFAKSL--GFTEEGIVFLPK-
+TDKCMEEHP---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|60 gi|81904828|sp|Q9D265|Q9D265_MOUSE Adult male epididymis cDNA, RIKEN full-length enriched library, clone:9230102M18 product:hypothetical Lipocalin-related protein and Bos/Can/Equ allergen containing protein, full insert sequence
+-MQ------------------------------------------------------FQG
+-E-WFVLGLADNTFR--REHRA-LLNFFTTLFEL-KEKSQFQVTNSMT--------RGK-
+H----CNTWSYTLIPAT--KPGQFTRDNRGSGPGADR--ENIQVIETDYITFAL--VLSL
+RQTS--S--QN-ITRVSLLGRNWRLSHKT-ID----KFICLTRTQ--NLTKDNFLFPDL-
+SDWLPDPQVC--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|61 gi|112725|sp|P11672.1|NGAL_MOUSE RecName: Full=Neutrophil gelatinase-associated lipocalin; Short=NGAL; AltName: Full=Lipocalin-2; AltName: Full=SV-40-induced 24P3 protein; AltName: Full=Siderocalin LCN2; AltName: Full=p25; Flags: Precursor
+-MA-LS----VMCLGLALLGVLQSQAQDSTQNLIPAPSLLTVPLQP-----DFRSDQFRG
+-R-WYVVGLAGNA-VQ--KKTEGSFTMYSTIYEL-QENNSYNVTSILV--------RDQ-
+DQG--CRYWIRTFVPSS--RAGQFTLGNMHRYPQVQS--YNVQVATTDYNQFAM--VFFR
+KT-S--EN-KQ-YFKITLYGRTKELSPEL-KE----RFTRFAKSL--GLKDDNIIFSVP-
+TDQCIDN-----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|62 gi|82214882|sp|Q8QFM7|Q8QFM7_CHICK Chondrogenesis associated lipocalin (Lipocalin-type prostaglandin D synthase)
+-MQATL----LSILGLALLGAL--------------HAQNSIPVQA-----DFQQDKLAG
+-R-WYSIGLASNS-NWF-KDKKHLLKMCTTDIAV-TADGNMEVTSTYP--------KGE-
+Q----CEKRNSLYIRTE--QPGRFS---YTNPRWGSN--HDIRVVETNYDEYAL--VATQ
+ISKS--TG--S-SNMVLLYSRTKEVAPQR-LE----RFMQFSQEQ--GLKDEEILILPQ-
+TDKCMADAA---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|63 gi|266472|sp|Q01584.1|LIPO_BUFMA RecName: Full=Lipocalin; Flags: Precursor
+-----------------MKGLVLSFAL-VALSALCVYG--DVPIQP-----DFQEDKILG
+-K-WYGIGLASNS-NWF-QSKKQQLKMCTTVITP-TADGNLDVVATFP--------KLD-
+----RCEKKSMTYIKTE--QPGRFLS---KSPRYGSD--HVIRVVESNYDEYTL--MHTI
+KTKG--NE-VN--TIVSLFGRRKTLSPEL-LD----KFQQFAKEQ--GLTDDNILILPQ-
+TDSCMSEV----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|64 gi|82217528|sp|Q91721|Q91721_XENLA Cpl-1 protein
+-----------------MMRILLALSLGVACCSLWVGA--EVQVQP-----DFQKEKVLG
+-K-WYGIGLASNS-NWF-KDRKSHMKMCTTIITP-TADGNLEVTATYP--------KMD-
+----RCETKSMTYFKTE--QLGGFRA---KSPRYGSE--HDMRVVETNYDEYIL--MYTV
+KTKG--SE-TN--QIVSLFGRDKDLRPEL-LD----KFQNFAKSQ--GLADDNIIILPH-
+TDQCMTEA----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|65 gi|82215065|sp|Q8QGV4|Q8QGV4_BRARE Lipocalin-type prostaglandin D synthase-like protein (Prostaglandin D synthase homolog)
+-----------------MASVVVKMLC-LLLCAVFASA--DVMPMT-----DFDLQKVEG
+-K-WYLVGFATNA-KWF-VSHKDDMKMGTAMLVP-TQEGDLDLSYSNL--------KSD-
+G---SCWRMTYLAKKTE--TPGRFVF---YSQRWGND--NDMRVVDAKFDEYAI--FHTI
+KTKG--GV-SE--ILNKLYSRTPEMVDDL-KE----KFRQFCLDT--GILEENIVMLPQ-
+NGECSVAA----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|66 gi|82123701|sp|O93588|O93588_LACVV Androgen-regulated epipidymal secretory protein
+----------------LVFGMTPDYIF-------PVSA--DIPVVP-----NFDPQKTVG
+-K-WHPIGMASKL-PEL-TPYEQKISPMDHIVEV--IDGDMKLTANYM--------SDG-
+----VSKEATAMLKHTD--KPGVFKF---T------D--GEVHVLDVDFEKYIM--LYV-
+KKS------SH--EALFLSARGPDVEDDI-KE----KFKKLVLEQ--SFPEANIKYF-N-
+AEQCTPTAA---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|67 gi|82071154|sp|O93589|O93589_LACVV Androgen-regulated epipidymal secretory protein
+--------------------MTPDYIF-------PVSA--DIPVVA-----NFDTPKTVG
+-K-WHPIGMASKL-PEL-TPYEQKISPMDHIVEV--TDGDMKLTANYM--------SDG-
+----VCKTSVLVLKHTD--KPGVFKV---P------D--GEVHVIKMLILKSIS--FFTS
+KKP------TH--EALFLSARGSTGGDDI-KA----KFKKLVWEQ--IILEAHIKYL-N-
+VEQCTPKAG---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|68 gi|190359792|sp|A2AJB7.1|LCN5_MOUSE RecName: Full=Epididymal-specific lipocalin-5; AltName: Full=Epididymal retinoic acid-binding protein; Short=E-RABP; Short=mE-RABP; AltName: Full=Epididymal secretory protein 10; Short=MEP 10; Contains: RecName: Full=Epididymal-specific lipocalin-5, major form; Contains: RecName: Full=Epididymal-specific lipocalin-5, minor form; Flags: Precursor
+-MCSVAR-HMESIMLFTLLGLCVGLAAGTEAA-----------VVK-----DFDVNKFLG
+-F-WYEIALASKM-GAY-GLAHKEEKMGAMVVEL--KENLLALTTTYY--------NEG-
+----HCVLEKVAATQVD--GSAKYKV---T--RISGE--KEVVVVATDYMTYTV--IDIT
+SLVA--GA-VH--RAMKLYSRSLDNNGEA-LN----NFQKIALKH--GFSETDIHILKH-
+DLTCVNALQSGQI-----------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|69 gi|62286893|sp|Q924P3.1|LCN8_MOUSE RecName: Full=Epididymal-specific lipocalin-8; AltName: Full=Epididymal 17 kDa lipocalin; Short=EP17; Short=mEP17; Flags: Precursor
+-------------MEARLLSNVCGFFL--------VFLLQAESTRV-----ELVPEKIAG
+-F-WKEVAVASDQ-KLV-LKAQRRVEGLFLTF----SGGNVTVKAVYN--------SSG-
+S----CVTESSLGSERD--TVGEFAFP--------GN--REIHVLDTDYERYTI--LKLT
+LLWQ--GR-NF--HVLKYFTRSLENEDEPGFW----LFREMTADQ--GL-----YMLAR-
+HGRCAELLKEGLV-----------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|70 gi|112881|sp|P02764.1|A1AG_RAT RecName: Full=Alpha-1-acid glycoprotein; AltName: Full=Orosomucoid; Short=OMD; Flags: Precursor
+--------MALHMVLVVLSLLPLLEAQNPEP------ANITLGIPI----TNETLKWLSD
+-K-WFYMGAAFRD--PVFKQAVQTIQTEYFYLTPNLINDTIELREFQT--------TDD-
+Q----CVYNFTHLGVQR--ENGTLSK---CAGAVKIF--AHLIVLKKHGTFMLA--FNLT
+DE-------N---RGLSFYAKKPDLSPEL-RK----IFQQAVKDV--GMDESEIVFVDWT
+KDKCSEQQKQQLELEKETKKETKKDP----------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|71 gi|112879|sp|P21350.1|A1AG1_MUSCR RecName: Full=Alpha-1-acid glycoprotein 1; Short=AGP 1; AltName: Full=Orosomucoid-1; Short=OMD 1; Flags: Precursor
+--------MALHMILVMLSLLPLLEAQNPEH------VNITIGEPI----TNETLSWLSD
+-K-WFFIGAAVLN--PDYRQEIQKMQMVFFNITPNLINDTMELREYHT--------IDD-
+H----CVYNSTHLGIQR--ENGTLSK---YVGGVKIF--ADLIVLRKHGAFMLA--FDLK
+DE-------KK--RGLSLNAKRPDITPEL-RE----VFQKAVKHV--GMDESEIIFVDWK
+KDKCGQQEKKQLELEKETKKDPEEGQA---------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|72 gi|2497693|sp|Q63805.1|A1AG3_MOUSE RecName: Full=Alpha-1-acid glycoprotein 3; Short=AGP 3; AltName: Full=Orosomucoid-3; Short=OMD 3; Flags: Precursor
+--------MELHTVLIMLSLLPLLEAQNPEH------A-INIGDPI----TNETLSWLSG
+-K-WFLIAVADSD--PDYRQEIQKVQTIFFYLTLNKINDTMELREYHT--------KDD-
+H----CVYNSNLLGFQR--ENGTLFK---YEGEVENP--SHLRVLEKHGAIMLF--FDLK
+DE-------KK--RGLSLSARRPDIPPEL-RE----VFQKAVTHV--GMDESEIIFVDWK
+KDRCSEQEKKHLELEKETKKDPEESQA---------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|73 gi|112880|sp|P25227.1|A1AG_RABIT RecName: Full=Alpha-1-acid glycoprotein; AltName: Full=Orosomucoid; Short=OMD; Flags: Precursor
+--------MALPWALAVLSLLPLLHAQDPAC------ANFS-TSPI----TNATLDQLSH
+-K-WFFTASAFRN--PKYKQLVQHTQAAFFYFTAIKEEDTLLLREYIT--------TNN-
+T----CFYNSSIVRVQR--ENGTLSK---HDGIRNSV--ADLLLLRDPGSFLLV--FFAG
+KE-------QD--KGMSFYTDKPKASPEQ-LE----EFYEALTCL--GMNKTEVVYTDWT
+KDLCEPLEKQH---EEERKKEKAES-----------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|74 gi|231458|sp|P19652.2|A1AG2_HUMAN RecName: Full=Alpha-1-acid glycoprotein 2; Short=AGP 2; AltName: Full=Orosomucoid-2; Short=OMD 2; Flags: Precursor
+--------MALSWVLTVLSLLPLLEAQIPLC------ANLV-PVPI----TNATLDRITG
+-K-WFYIASAFRN--EEYNKSVQEIQATFFYFTPNKTEDTIFLREYQT--------RQN-
+Q----CFYNSSYLNVQR--ENGTVSR---YEGGREHV--AHLLFLRDTKTLMFG--SYLD
+DE-------KN--WGLSFYADKPETTKEQ-LG----EFYEALDCL--CIPRSDVMYTDWK
+KDKCEPLEKQH---EKERKQEEGES-----------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|75 gi|75052482|sp|Q29014|Q29014_PIG Alpha-1 acid glycoprotein
+----------------------------PLC------ANLT-AVPI----TNATLDLISG
+-K-WYYIGSAFRN--PQYNESARSIQAAFFFFDPKPAEDKINLREYQT--------IGN-
+Q----CIYNDSSLKVHR--ENGSLSK---HEMGREHV--ADLLLTKVPKTFMLI--NSLH
+DK-------NN--VGLSFYADKAEVTPEQ-MK----EFHDAIECT--GIHKSEITYTDEK
+KDLCGPLEKQH---EEERKKEKEKEGS---------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|76 gi|399471|sp|P31416.1|FABP1_MANSE RecName: Full=Fatty acid-binding protein 1; Short=FABP 1
+-----------------------------------------------------M--AYLG
+-KVYKFDREENFD------GFLKSIGLSEEQVQK--YLQYKPSSQLVK--------EGD-
+K--YKYISVSS-DGTKE--TVFESGVETDDVVQGGLP---IKTTYTVDG-NTVT--QVVN
+SAQG-----SA-TFKREY-NGDELKVTIT-SSEWDGVAYRYYKA----------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|77 gi|14423698|sp|Q17284.1|FABP_BLOTA RecName: Full=Fatty acid-binding protein; AltName: Full=Bt6; AltName: Allergen=Blo t 13
+----------------------------------------------M-------P--IEG
+-K-YKLEKSDNFD------KFLDELGVGFMVKTA--AKTLKPTLEVDV--------QGD-
+T--YVF-RSLSTFKNTE--IKFKLGEEFEED--RADG-KRVKTVVNKEGDNKFI--QTQY
+GDKE-VK------IVRDF-QGDDVVVTAS-VG--DVTSVRTYKRI---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|78 gi|47115839|sp|Q8MUC1.1|FABP_CLOSI RecName: Full=Fatty acid-binding protein
+------------------------------------------------------MSAFIG
+-S-WKLCESQNFD------EFLRELGVNFFIRKA--ASTSKPTITFDK--------FGD-
+N-GLKM-KTETILKTTE--QSFTFGEEFDET--TIDG-RQVKSTVTRDSDTQLT--QVQK
+HDDG-NTV-----IVRKI-EGDMMVTTAT-FK--NITSVRKYQRH---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|79 gi|47115579|sp|O45035.1|FABP_SCHJA RecName: Full=Fatty acid-binding protein; AltName: Full=Sj-FABPc; AltName: Full=Sj14FABP
+------------------------------------------------------MSSFLG
+-K-WKLSETHNFD------AVMSKLGVSWPIRQM--GNTVTPTVTFTM--------DGD-
+T--MTM-LTESTFKNLS--VTFKFGEEFDEK--TSDG-RNVKSVVTKDSESKIT--QTQK
+DAKN-TTV-----IVREI-VGDTMKTTVT-VD--DVTAIRNYKRL---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|80 gi|47116941|sp|Q9U1G6.1|FABP3_FASHE RecName: Full=Fatty acid-binding protein type 3
+------------------------------------------------------MANFVG
+-S-WKLEQSENMD------AVLQKLGINVIKRKL--ITSSKPEITFTL--------EGN-
+K--MTM-KTVSALKTTV--ISFTFGEEFKEE--TADG-RTVMTTFTKDSDSKIS--QVQK
+CPEN-TTH-----VVREV-TGGKMIATVT-VG--DVKAVNNYHKV---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|81 gi|47116942|sp|Q9UAS2.3|FABP1_FASGI RecName: Full=Fatty acid-binding protein 1
+------------------------------------------------------MADFVG
+-S-WKYGDSENME------AYLKKLGISSDMVDK--ILNAKPEFTFTL--------EGN-
+Q--MTI-KMVSSLKTKI--TTFTFGEEFKEE--TADG-KTAMTTVTKDSESKMT--QVTT
+GPEY-TTH-----VVREV-VGDKMIATWT-VG--DVKAVTTLLKA---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|82 gi|29336919|sp|Q9BMK3.1|FABP2_ECHGR RecName: Full=Fatty acid-binding protein homolog 2
+---------------------------------------------------ME---PFIG
+-T-WKMEKSEGFD------KIMERLGVDYFTRKM--GNMMKPNLIISD--------LGDG
+R--YNM-RSESKFKTSE--FSFKLGEQFKEV--TPDS-REVMSM-LTVEDGVLK--QEQV
+G----KDK-TT-YIDRVV-YGNELRATVK-AD--ELVCVRTYSRGM--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|83 gi|82190197|sp|O57663|O57663_9PERC Fatty acid binding protein H6-isoform
+---------------------------------------------------M--VEKFVG
+-T-WKMISSDNFD------DYMKAIGVGFATRQV--GNRTKPNLVVSV--------DDQ-
+G--FVCLKSQSTFKTTE--IKFKLNEPFEET--TADD-RKTRTV-VTLENGKLV--QKQC
+W-DG---K-ET-NIEREI-EDGKLVAKCI-MG--DVIAVRTYVMEA--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|84 gi|2811020|sp|O02772.3|FABPH_PIG RecName: Full=Fatty acid-binding protein, heart; AltName: Full=Fatty acid-binding protein 3; AltName: Full=Heart-type fatty acid-binding protein; Short=H-FABP
+---------------------------------------------------MV--DAFAG
+-T-WKLVDSKNFD------DYMKSIGVGFATRQV--ANMTKPTTIIEV--------NGD-
+T--III-KTQSTFKSTE--ISFKLGVEFDET--TADD-RKVKSI-VTLDGGKLV--HLQK
+W----NGQ-ET-TLVREL-VDGKLILTLT-HG--SAVCTRTYEKEA--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|85 gi|82217042|sp|Q90W92|Q90W92_FUNHE Heart-type fatty acid-binding protein
+---------------------------------------------------MV--EAFVG
+-T-WNLKESENFD------DYMKELGVGFATRKV--GNLTKPTTIICV--------DGD-
+K--VTV-KTQSTIKNTE--LSFKLGEEFDET--TADD-RKVKSL-VTIEDGKLV--HVQK
+W----DGK-ET-TLVREV-DGNKLTLTLT-IG--GVVSKRHYEKA---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|86 gi|82221709|sp|Q9I896|Q9I896_ANGJA Heart fatty acid binding protein
+---------------------------------------------------MVIMEPFLG
+-T-WHLKTSENFD------EYMKELGVGFATRKI--GNTTKPTLIIAA--------DGD-
+K--FQV-KTQSLLKSTE--INFKLGEEFDET--TADD-RKVKSV-VKLEDGKLV--HLQK
+W----DSK-ET-SLVRAV-DGNKLTLTLT-FG--NVVSTRHYEKAE--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|87 gi|2811080|sp|O13008.3|FABPH_ONCMY RecName: Full=Fatty acid-binding protein, heart; AltName: Full=Fatty acid-binding protein 3; AltName: Full=Heart-type fatty acid-binding protein; Short=H-FABP
+---------------------------------------------------MA--EAFAG
+-T-WNLKDSKNFD------EYMKALGVGFATRQV--GGMTKPTTIIEV--------AGD-
+T--VTL-KTQSTFKNTE--ISFKLGAEFDET--TADD-RKVKSL-ITIDGGKMV--HVQK
+W----DGK-ET-TLVREV-SGNALELTLT-LG--DVVSTRSYVKAE--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|88 gi|82123162|sp|O57667|O57667_CHAAC Fatty acid binding protein H8-isoform
+---------------------------------------------------MV--DVFVG
+-T-WNLKDSEKFD------EYMKKLGVGFATRQV--GNVTKPTTIISV--------EGD-
+K--VTL-KTQSAIKNTE--LSFKLDEEFDET--TADD-RKVKSF-VTVDGGKLV--HTQK
+W----DGK-ET-SLVREV-NGNNLTLTLK-MD--DVESIRRYVKAE--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|89 gi|119807|sp|P80049.1|FABPL_GINCI RecName: Full=Fatty acid-binding protein, liver; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+------------------------------------------------------VEAFLG
+-S-WKLQKSHNFD------EYMKNLDVSLAQRKV--ATTVKPKTIISL--------DGD-
+V--ITI-KTESTFKSTN--IQFKLAEEFDET--TADN-RTTKTT-VKLENGKLV--QTQR
+WDG----K-ET-TLVREL-QDGKLILTCT-MG--DVVCTREYVREQ--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|90 gi|6648071|sp|P55052.4|FABP5_BOVIN RecName: Full=Fatty acid-binding protein, epidermal; AltName: Full=Differentiation-associated lipid-binding protein LP2; AltName: Full=Epidermal-type fatty acid-binding protein; Short=E-FABP; AltName: Full=Fatty acid-binding protein 5
+---------------------------------------------------MATVQQLVG
+-R-WRLVESKGFD------EYMKEVGVGMALRKV--GAMAKPDCIITS--------DGK-
+N--LSI-KTESTLKTTQ--FSCKLGEKFEET--TADG-RKTQTV-CNFTDGALV--QHQE
+W-DG---K-ES-TITRKL-EDGKLVVVCV-MN--NVTCTRVYEKVE--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|91 gi|166897974|sp|O08716.2|FABP9_MOUSE RecName: Full=Fatty acid-binding protein 9; AltName: Full=15 kDa perforatorial protein; Short=PERF 15; AltName: Full=Testis lipid-binding protein; Short=TLBP; AltName: Full=Testis-type fatty acid-binding protein; Short=T-FABP
+-----------------------------------------------------MIEPFLG
+-T-WKLISSENFE------NYVRELGVECEPRKV--ACLIKPSVSISF--------NGE-
+R--MDIQAGSA-CRNTE--ISFKLGEEFEETTADNRK---VKSLITFEG-GSMI--QVQK
+WLGK-----QT-TIKRKI-VDGKMVVECT-MN--NVVSTRIYERV---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|92 gi|81905989|sp|Q9DAK4.1|FBP12_MOUSE RecName: Full=Fatty acid-binding protein 12
+----------------------------------------------M-------VDQLQG
+-T-WKSVSCDNFE------NYMKELGVGRASRKL--GCLAKPTVTIST--------DGD-
+L--ITI-KTKSIFKNKE--ISFKLGEEFEET--TPSG-RKSKSTVILDNDS-LV--QVQD
+WDGK-EAT-----ICRRL-VDGKMVVESA-VN--NVTCTRTYQRV---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|93 gi|82215161|sp|Q8QHA8|Q8QHA8_9AVES Adipocyte fatty acid-binding protein
+---------------------------------------------------MC--DHFVG
+-T-WKLLSSENFE------DYMKELGVGFATRKM--AGVAKPNLTISI--------NGD-
+V--ITI-RSESTFKNTE--ISFKLGEEFDET--TADD-RKTKNV-ITLDSGALK--QVQK
+G----DGK-ET-VIKRRV-VDGNLLVECT-MN--NVTSKRVYERA---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|94 gi|2494405|sp|P70623.3|FABP4_RAT RecName: Full=Fatty acid-binding protein, adipocyte; AltName: Full=Adipocyte lipid-binding protein; Short=ALBP; AltName: Full=Adipocyte-type fatty acid-binding protein; Short=A-FABP; Short=AFABP; AltName: Full=Fatty acid-binding protein 4
+---------------------------------------------------MC--DAFVG
+-T-WKLVSSENFD------DYMKEVGVGFATRKV--AGMAKPNLIISV--------EGD-
+L--VVI-RSESTFKNTE--ISFKLGVEFDEI--TPDD-RKVKSI-ITLDGGVLV--HVQK
+W----DGK-ST-TIKKRR-DGDKLVVECV-MK--GVTSTRVYERA---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|95 gi|47116424|sp|Q965W1.1|FABP9_CAEEL RecName: Full=Fatty acid-binding protein homolog 9
+------------------------------------MLSAFFKTAHCALRNMPIQTDLVG
+-K-WNFVSSENFD------EYLKEVGVGWAIRTI--ATKTKPALEFAV--------NGD-
+E--WTM-NSNSTFKNYT--LKWKLGTASDEK--TADG-RDVSSV-FSIENDHLV--QIET
+G-KG-GGK-DS-RIERYI-ENGKLVIVCT-CN--GVKCTRVYEKAA--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|96 gi|47115573|sp|O02323.1|FABP7_CAEEL RecName: Full=Fatty acid-binding protein homolog 7
+---------------------------------------------------MASMNDFIG
+-R-WKLVQTENFD------EYMKEIGVGLITRKA--AAHLKPILEIRL--------DGE-
+T--WNF-DQFSTFKNTK--LSFKLGEEFVEN--SPDD-RTYNSL-FTFENGKLT--HRQN
+KIKE-NHK-SS-VLTTWL-ENGKLIQTYQ-SG--DVICRREWERE---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|97 gi|47115571|sp|O01812.1|FABP6_CAEEL RecName: Full=Fatty acid-binding protein homolog 6
+---------------------------------------------------M-SQE-FVG
+-R-WKLIHSENFE------EYMKEVGVGLITRKA--AANLKPTLEIKV--------EGD-
+L--WYS-NQYSTFKNTT--LSFKLGQEFDET--TPDG-RTVKSV-VNFENGKFI--HIQK
+KIKD-SDK-ES-IITRWL-EGDKLITTLE-SG--SVVSRREYVRE---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|98 gi|47115572|sp|O01814.1|FABP5_CAEEL RecName: Full=Fatty acid-binding protein homolog 5
+---------------------------------------------------M-SAEQFVG
+-R-WKLVESENFE------DYLKEVGVGLLLRKA--ACAAKPTLEIKV--------NGN-
+K--WHV-NQLSTFKNTT--LEFTLGVEFDET--TPDG-RQFKST-ITIEDGKVV--HVQK
+RIKD-SDH-DS-VITRWF-EGEKLITTLQ-SG--SVISRRAYIRE---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|99 gi|109893296|sp|P02694.4|RET1_BOVIN RecName: Full=Retinol-binding protein 1; AltName: Full=Cellular retinol-binding protein; Short=CRBP; AltName: Full=Cellular retinol-binding protein I; Short=CRBP-I
+----------------------------------------------M-------PVDFTG
+-Y-WKMLANENFE------EYLRALDVNVALRKI--ANLLKPDKEIVQ--------EGD-
+H--MII-RTLSTFRNYI--MDFQVGKEFEEDLTGIDD-RKCMTTVSWDG-DKLE--CVQK
+GEKE-GRG-----WTQWI-EGDELHLEMR-VE--GVVCKQVFKKVN--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|100 gi|14916691|sp|P82980.3|RET5_HUMAN RecName: Full=Retinol-binding protein 5; AltName: Full=Cellular retinol-binding protein III; Short=CRBP-III; AltName: Full=HRBPiso
+----------------------------------------------M-------PPNLTG
+-Y-YRFVSQKNME------DYLQALNISLAVRKI--ALLLKPDKEIEH--------QGN-
+H--MTV-RTLSTFRNYT--VQFDVGVEFEEDLRSVDG-RKCQTIVTWEE-EHLV--CVQK
+GEVP-NRG-----WRHWL-EGEMLYLELT-AR--DAVCEQVFRKVR--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|101 gi|1710094|sp|P50568.2|RABP2_XENLA RecName: Full=Cellular retinoic acid-binding protein 2; AltName: Full=Cellular retinoic acid-binding protein; Short=CRABP; Short=xCRABP; Short=xCRABP-b
+---------------------------------------------------M---PNFSG
+-H-WKMKQSENFE------EMLKALGVNLMLRKIAVAAASKPAVEIKQ--------EGE-
+T--FYI-KTSTTVRTTE--INFKIGEEFDEQ--TVDG-RPCKSLAKWVSENKMA--CEQK
+LLKG-DGP-KT-AWTREMTNDGELILTMT-AD--DVVCTRIYIRD---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|102 gi|6093953|sp|O42386.3|RABP1_TAKRU RecName: Full=Cellular retinoic acid-binding protein 1; AltName: Full=Cellular retinoic acid-binding protein I; Short=CRABP-I
+---------------------------------------------------M---PNFAG
+-T-WKMKSSENFD------ELLKALGVNTMLRKVAVAAASNPHVEIRQ--------DGE-
+K--FYI-KTSTTVRTTE--INFHIGEEFDEE--TVDG-RKCKSLPTWESENKIR--CKQT
+LVEG-DGP-KT-FWTREL-NGDELTLVFG-AD--DVVCTRIYVRE---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|103 gi|74893077|sp|O61236|O61236_MANSE Cellular retinoic acid binding protein
+-----------------------------------------------------M--EFVG
+-KKYKMISSENFD------EFMKAIGVGLITRKA--ANAVTPTVELRQ--------EGD-
+G--YNLVTSST-FKTTE--MKFKPGEEFDEERADGAK---VKSVCTFEG-NTLK--QVQK
+AADG---L-EV-TYIREF-GPEEMKAVMT-AK--DVTCTRVYKVQ---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|104 gi|74935732|sp|Q8WR15|Q8WR15_METEN Cellular retinoic acid/retinol binding protein
+----------------------------------------------M-------AK-FEG
+-K-FRMESSENFD------EFMKALGVGLVMRKM--GNAATPTVEITK--------DGD-
+T--YSL-KTVTTFKTTE--IKFKLGEEFEET--TADG-RVVKSTVTMDG-NKLV--HKQT
+GDKE-KKEKDS-ILTREF-SDDQMLMECK-VD--DIVCTRVYKRVV--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|105 gi|1169595|sp|P41509.2|FABPM_LOCMI RecName: Full=Fatty acid-binding protein, muscle; AltName: Full=M-FABP
+----------------------------------------------M-------VKEFAG
+IK-YKLDSQTNFE------EYMKAIGVGAIERKA--GLALSPVIELEVL-------DGD-
+K--FKL-TSKTAIKNTE--FTFKLGEEFDED--TLDG-RKVKSIITQDGPNKLV--HEQK
+GDHP-TI------IIREF-SKEQCVITIK-LG--DLVATRIYKAQ---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|106 gi|74930049|sp|Q8IGA2|Q8IGA2_DROME SD12036p
+------------------------------------TSCAEHRPNIP-------KMSFVG
+KK-YKLDKSENFD------EYMKELGVGLVTRKM--GNSLSPTVEVTL--------EGD-
+T--YTL-TTTSTFKTSA--ISFKLGVEFDEE--TLDG-RNVKSIITLDG-NKLT--QEQK
+GDKP-TT------IVREF-TDNELITTLT-IG--NVKCVRVYKAV---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|107 gi|1706760|sp|P55050.2|FABPI_MOUSE RecName: Full=Fatty acid-binding protein, intestinal; AltName: Full=Fatty acid-binding protein 2; AltName: Full=Intestinal-type fatty acid-binding protein; Short=I-FABP
+---------------------------------------------------MA----FDG
+-T-WKVDRNENYE------KFMEKMGINVMKRKL--GAHDNLKLTITQ--------DGN-
+K--FTV-KESSNFRNID--VVFELGVNFPYS--LADG-TELTGA-WTIEGNKLIGKFTRV
+D----NGK-EL-IAVREV-SGNELIQTYT-YE--GVEAKRFFKKE---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|108 gi|2494403|sp|Q91775.2|FABPI_XENLA RecName: Full=Fatty acid-binding protein, intestinal; AltName: Full=Fatty acid-binding protein 2; AltName: Full=Intestinal-type fatty acid-binding protein; Short=I-FABP
+---------------------------------------------------MA----FDG
+-T-WKVDRSENYE------KFMEVMGVNIVKRKL--GAHDNLKVIIQQ--------DGN-
+N--FTV-KESSTFRNIE--IKFTLAQPFEYS--LADG-TELNGA-WFLQDNQLLGTFTRK
+D----NGK-VL-QTTRQI-IGDELVQTYE-YE--GTESKRIFKRG---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|109 gi|82211915|sp|Q8AX65|Q8AX65_BRARE Intestinal fatty acid-binding protein
+---------------------------------------------------MT----FNG
+-T-WKVDRNENYE------KFMEQMGVNMEKRKL--AAHDNLKITLEQ--------TGD-
+K--FNV-KEVSTFRTLE--INFTLGVTFDYS--LADG-TELTGS-WVIEGDTLKGTFTRK
+D----NGK-VL-TTVRTI-VNGELVQSYS-YD--GVEAKRIFKRA---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|110 gi|82224704|sp|Q9U6H2|Q9U6H2_MYXGL Gastrotropin
+-----------------------------------------------------MTSALVG
+-K-WKLESQENFE------AFMRKMGVEEEKITK--AKTDDQSVEITS--------SGN-
+T--FTITVHNP-AKTFS--NTITVGQENEVELSNGQK---AKGMITAEG-AKLI--TKMA
+KMSR-----TS-----EV-VGGKLIDISE-CE--GVTYKRVFKKM---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|111 gi|7387652|sp|P82289.1|FABPL_LEPPA RecName: Full=Fatty acid-binding protein, liver; AltName: Full=Fatty acid-binding protein 1; AltName: Full=Liver basic fatty acid-binding protein; Short=Lb-FABP; Short=Liver basic FABP; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+--------------------------------------------------------AFSG
+-T-WQVYAQENYE------AFLKVIGVAEDIIPH--AKEIKPTIEIQQ--------SGN-
+S--FTV-TSTAQKKSTT--NTFTIGKEAEIT--TMNG-NKLRCTINMED-GKLV--CKTE
+KFSH-IQE---------V-QGEEMIETLT-SG--SATLIRRSRKV---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|112 gi|124012092|sp|P80856.2|FABPL_RHASA RecName: Full=Fatty acid-binding protein, liver; AltName: Full=Fatty acid-binding protein 1; AltName: Full=Liver basic FABP; Short=LB-FABP; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+-------------------------------------------------------MAFSG
+-T-WQVYAQENYE------EFLRAISLPEDVIKL--AKDVKPVTEIQQ--------TGN-
+D--FVI-TSKTPGKSVT--NSFTIGKEAEIT--TMDG-RKLKCIVKLEG-GKLI--SETE
+KFSH-KQE---------I-KGGEMIETLT-VA--GTTMVRKSKKV---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|113 gi|2494404|sp|Q90239.3|FABPL_ANOPU RecName: Full=Fatty acid-binding protein, liver; AltName: Full=Liver basic FABP; Short=LB-FABP; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+-------------------------------------------------------MAFNG
+-T-WQVYSQENYE------DFLKAIALPDDIIKA--AKDVKPVTEIRQ--------TGN-
+T--FVV-TSKTPNKSVT--NSFTLGKEADMT--TMDG-KKVKCTVNLVD-GKLV--AKSD
+KFIH-EQE---------I-VGNEMVETIT-SG--SATFTRRSKKI---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|114 gi|124012090|sp|P81653.2|FABPL_SCHBI RecName: Full=Fatty acid-binding protein, liver; AltName: Full=Fatty acid-binding protein 1; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+-------------------------------------------------------MAFSG
+-T-WQVYSQENIE------DFLRALSLPEEVIKI--GKDIKPVIDIKQ--------TGE-
+H--FVI-VVKTSQQTVT--NEFTVGKEAEIT--SMDG-KKLKCTVQLED-GKLV--AKKL
+KFTH-IQE---------V-QGNEMIEKLT-AG--NATMIRKSRRM---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|115 gi|124012087|sp|P81400.2|FABP2_AMBME RecName: Full=Fatty acid-binding protein 2, liver; AltName: Full=Liver basic FABP; Short=LB-FABP; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+-------------------------------------------------------MPFNG
+-T-WQVYSQENYE------AFLRAVGLPEDIINV--AKDINPIIEIQQ--------NGD-
+N--FVV-TSKTPNQSVT--NSFTIGKEAEIT--SMGG-KKIKCTVVLEG-GKLV--SKTD
+QFSH-IQE---------V-KGNEMVETLT-VG--GATLIRRSKRV---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|116 gi|1708459|sp|P50119.2|FABP6_RABIT RecName: Full=Gastrotropin; Short=GT; AltName: Full=Fatty acid-binding protein 6; AltName: Full=Ileal lipid-binding protein; Short=ILBP
+-----------------------------------------------------M--AFTG
+-K-FEMESEKNYD------EFMKLLGLPSDVVEK--SRNIKIVTEIKQ--------DGQ-
+D--FTWSHHYSGGQIMT--NKFTIGKESEIQTFGGKK---FKAVVNMEG-GKVV--ANFP
+NYQH-----TS-----EI-KGDKLVEVSS-IG--GVTYERVSKRLA--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|117 gi|1346216|sp|P10289.3|FABP6_PIG RecName: Full=Gastrotropin; Short=GT; AltName: Full=Fatty acid-binding protein 6; AltName: Full=Ileal lipid-binding protein; Short=ILBP; AltName: Full=Porcine ileal peptide; Short=PIP
+-----------------------------------------------------M--AFTG
+-K-YEIESEKNYD------EFMKRLALPSDAIDK--ARNLKIISEVKQ--------DGQ-
+N--FTWSQQYPGGHSIT--NTFTIGKECDIETIGGKK---FKATVQMEG-GKVV--VNSP
+NYHH-----TA-----EI-VDGKLVEVST-VG--GVTYERVSKKLA--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|118 gi|4033695|sp|P80020.3|FABP6_RAT RecName: Full=Gastrotropin; Short=GT; AltName: Full=14 kDa bile acid-binding protein; AltName: Full=Fatty acid-binding protein 6; AltName: Full=I-BABP; AltName: Full=Ileal lipid-binding protein; Short=ILBP; AltName: Full=Intestinal 15 kDa protein; Short=I-15P
+-----------------------------------------------------M--AFTG
+-K-YEFESEKNYD------EFMKRLGLPDEVIER--GRNFKIITEVQQ--------DGE-
+N--FTWSQSYSGGNIMS--NKFTIGKECEMQTMGGKK---FKATVKMEG-GKVV--ADFP
+NYHQ-----TS-----EV-VGDKLVEIST-IG--DVTYERVSKRVA--------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|119 gi|11132085|sp|O42494.1|FABPL_TAKRU RecName: Full=Fatty acid-binding protein, liver-type; AltName: Full=Fatty acid-binding protein 1; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+-----------------------------------------------------M--SFSG
+-K-YQQVSQENFE------PFMKAIGLPDEVIQQ--VKELKSTSEIEQ--------NGN-
+D--FKITITTG-PKVTV--NKFTIGKETEMDTITGEK---IKTVFHLDG-NKLK--VSLK
+GIES----------VTELADPNTI--TMT-LG--DVVYKTTSKRM---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|120 gi|82134999|sp|Q8JJ04.1|FABPL_EPICO RecName: Full=Fatty acid-binding protein, liver-type; AltName: Full=Fatty acid-binding protein 1; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+-----------------------------------------------------M--LFSG
+-K-YQLESQENFE------AFRKAIGLPDELIQK--GKDIKSISEIEE--------NGD-
+D--FKVTITTG-SKVIV--NTFTVGKEAELETLTGEK---AKGVVHRDG-NKLK--VSLK
+GIES----------VTELVDGNTIANTMT-LG--NIGYKRISKRV---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|121 gi|3287845|sp|P81399.1|FABP1_AMBME RecName: Full=Fatty acid-binding protein 1, liver; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+--------------------------------------------------------SFAG
+-K-YELQSQENFE------AFMKAIGLPDELIQK--GKDIKSVSEIQQ--------NGK-
+S--FKVTVTTG-SKVLE--NEFTLGEEAELETLTGEK---VKSIVKQEGDNKLV--VNLK
+GITS----------VTEL-SGDTLINTLQ-KG--DDTYKRISKRI---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|122 gi|1169594|sp|P80425.1|FABPL_BOVIN RecName: Full=Fatty acid-binding protein, liver; AltName: Full=Fatty acid-binding protein 1; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+-----------------------------------------------------M--NFSG
+-K-YQVQTQENYE------AFMKAVGMPDDIIQK--GKDIKGVSEIVQ--------NGK-
+H--FKFIITAG-SKVIQ--NEFTLGEECEMEFMTGEK---IKAVVQQEGDNKLV--TTFK
+GIKS----------VTEF-NGDTVTSTMT-KG--DVVFKRVSKRI---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|123 gi|6015126|sp|P12710.2|FABPL_MOUSE RecName: Full=Fatty acid-binding protein, liver; AltName: Full=14 kDa selenium-binding protein; AltName: Full=Fatty acid-binding protein 1; AltName: Full=Liver-type fatty acid-binding protein; Short=L-FABP
+-----------------------------------------------------M--NFSG
+-K-YQLQSQENFE------PFMKAIGLPEDLIQK--GKDIKGVSEIVH--------EGK-
+K--IKLTITYG-PKVVR--NEFTLGEECELETMTGEK---VKAVVKLEGDNKMV--TTFK
+GIKS----------VTEL-NGDTITNTMT-LG--DIVYKRVSKRI---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|124 gi|129095|sp|P06910.1|OLFA_RANPI RecName: Full=Olfactory protein; Flags: Precursor
+--------------MIRIIAIVVLFFLQCQ--------ADLPPVMK-----GLEENKVTG
+-V-WYGIAAASNC-KQF-LQMKSDNMPAPVNIYS-LNNGHMKSSTSFQ--------TEK-
+G----CQQMDVEM-TTV--EKGHYKW-----KMQQGD--SETIIVATDYDAFLM--EFTK
+IQMG--AE-VC--VTVKLFGRKDTLPEDK-IK----HFEDHIEKV--GLKKEQYIRFHT-
+KATCVPK-----------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------
+>lcl|125 gi|544480|sp|P36992.1|AMBP_PLEPL RecName: Full=Protein AMBP; Contains: RecName: Full=Alpha-1-microglobulin; Contains: RecName: Full=Inter-alpha-trypsin inhibitor light chain; Short=ITI-LC; AltName: Full=Bikunin; AltName: Full=HI-30; Flags: Precursor
+----------------RLKTTVVLVPLLLLGWTGTLQGLPVLPEPLYPTQENFDLTRFVG
+-T-WHDVALTSSC--PHMQRNRADAAIGKLVLEKD-TGNKLKVTRTRL--------RHG-
+T----CVEMSGEYELTS--TPGRIFY---HIDRWDAD--VDAYVVHTNYDEYAI--IIMS
+KQKT--SG-EN-STSLKLYSRTMSVRDTV-LD----DFKTLVRHQ--GMSDDTIIIKQN-
+KGDCIPGEQVEEAPSQPE---PKRLRRQVLPTLALSDEEGSGDMSALF---NDSEACKAA
+PETGPCFGFIQGFFYNSTSMRCELFTYGGCLGNQNNFVTVRECLQRCRTEAVCRLPMAPE
+PCTGQPTIWAFDFVTGSCMPYKDGICQANANQFYSRAECQEYCGVIK-------------
+DDGELLTAS-----
+>lcl|126 gi|82217483|sp|Q91484|Q91484_SALSA Alpha-1-microglobulin/bikunin, 3' end. precursor
+-------------------GTRVVVLTLLLSLVCLIHGVPVLPEPLFPIQDNFDLTKFMG
+-K-WHDIAIGSTC--PWMQRHKGDAAIGTLELQASGTEDKVSMTRSMK--------KHG-
+K----CEQISGDYELTA--TPGRLTY---HIAKWGAD--VDAYVVDTNYDEYAI--VMLS
+KQKT--GG-EK-TKSAKLYSRTMELPPTI-LE----DFRRLVREQ--GMADDTIIIKQN-
+KGECVPGTEPVAAEPQPEITAPRAKRNIVLPELPA--EEGSGAGIMMF---RSEESCNAE
+PDAGPCFGTVQRHFYNSSSMACQLFTYGGCMGNQNNFVTERECLQSCRNEAACRLPVDAR
+PCTGQPKIWVFHSNSGLCLDNKKDYCQVNSNKFYSKRECEEYCGVMKVQEKGSSSKQTKG
+DENTEHTAQIRSIC
+>lcl|127 gi|82191279|sp|P70004|P70004_XENLA Alpha1-microglobulin/bikunin precursor (AMBP)
+-----------------MNTCWALILVPALLALGRCSPIQP-EDNI-QIQENFDLQRIYG
+-K-WYDIAIGSTC--KWLKHHKEKFNMGTLELSDGETDGEVRIVNTRM--------RHG-
+T----CSQIVGSYQKTE--TPGKFDY---FNARWGTT--IQNYIVFTNYNEYVI--MQMR
+KKKG--SE--T-TTTVKLYGRSPDLRPTL-VD----EFRQFALAQ--GIPEDSIVMLPN-
+NGECSPGEIEVRPR---RT------QRAVLPE----EEEGSGMENSPFSKNKGE-SCRLA
+PASGPCLGNHNRYFYNSSTMACETFQYGGCLGNNNNFHSEKECLHDCRTEAACRLPITPG
+PCKTAKTHWAFDAAQGKCVTFSYGGCQGNGNQFYTEKECKEYCGVQK-------------
+DVSEELL-------
+>lcl|128 gi|2506821|sp|P00978.2|AMBP_BOVIN RecName: Full=Protein AMBP; Contains: RecName: Full=Alpha-1-microglobulin; Contains: RecName: Full=Inter-alpha-trypsin inhibitor light chain; Short=ITI-LC; AltName: Full=BI-14; AltName: Full=Bikunin; AltName: Full=Cumulus extracellular matrix-stabilizing factor; Short=ESF; AltName: Full=HI-30; Contains: RecName: Full=Trypstatin; Flags: Precursor
+-----------------MRSLSGLLLLLTACLAVNASSVPTLPDDI-QVQENFDLSRIYG
+-K-WFNVAVGSTC--PWLKRFKEKMTMSTVVLIAGPTSKEISVTNTHR--------RKG-
+V----CESISGTYEKTS--ADGKFLY---HKAKWNIT--MESYVVHTNYDEYAI--FLTK
+KLSR--RH-GP-TITVKLYGREPQLRESL-LE----EFREVALGV--GIPEDAIFTMPD-
+RGECVPGEQDPVPTPLSRA------RRAVLTQ----EEEGSGAGQPVTNFSKKADSCQLD
+YSQGPCLGLFKRYFYNGTSMACETFLYGGCMGNGNNFLSEKECLQTCRTVEACNLPIVQG
+PCRSYIQLWAFDAVKGKCVRFSYGGCKGNGNKFYSEKECKEYCGIPG-------------
+EADEELLRFSN---
+>lcl|129 gi|172046756|sp|Q07456.2|AMBP_MOUSE RecName: Full=Protein AMBP; Contains: RecName: Full=Alpha-1-microglobulin; Contains: RecName: Full=Inter-alpha-trypsin inhibitor light chain; Short=ITI-LC; AltName: Full=Bikunin; AltName: Full=HI-30; Contains: RecName: Full=Trypstatin; Flags: Precursor
+-----------------MQGLRTLFLLLTACLASRADPASTLPD-I-QVQENFSESRIYG
+-K-WYNLAVGSTC--PWLSRIKDKMSVSTLVLQEGATETEISMTSTRW--------RRG-
+V----CEEITGAYQKTD--IDGKFLY---HKSKWNIT--LESYVVHTNYDEYAI--FLTK
+KSSH--HH-GL-TITAKLYGREPQLRDSL-LQ----EFKDVALNV--GISENSIIFMPD-
+RGECVPGDREVEPTSIARA------RRAVLPQ----ESEGSGTEPLITGTLKKEDSCQLN
+YSEGPCLGMQERYYYNGASMACETFQYGGCLGNGNNFISEKDCLQTCRTIAACNLPIVQG
+PCRAFIKLWAFDAAQGKCIQFHYGGCKGNGNKFYSEKECKEYCGVPG-------------
+DGYEELIRS-----
+>lcl|130 gi|122801|sp|P02760.1|AMBP_HUMAN RecName: Full=Protein AMBP; Contains: RecName: Full=Alpha-1-microglobulin; Short=Protein HC; AltName: Full=Alpha-1 microglycoprotein; AltName: Full=Complex-forming glycoprotein heterogeneous in charge; Contains: RecName: Full=Inter-alpha-trypsin inhibitor light chain; Short=ITI-LC; AltName: Full=Bikunin; AltName: Full=EDC1; AltName: Full=HI-30; AltName: Full=Uronic-acid-rich protein; Contains: RecName: Full=Trypstatin; Flags: Precursor
+-----------------MRSLGALLLLLSACLAVSAGPVPTPPDNI-QVQENFNISRIYG
+-K-WYNLAIGSTC--PWLKKIMDRMTVSTLVLGEGATEAEISMTSTRW--------RKG-
+V----CEETSGAYEKTD--TDGKFLY---HKSKWNIT--MESYVVHTNYDEYAI--FLTK
+KFSR--HH-GP-TITAKLYGRAPQLRETL-LQ----DFRVVAQGV--GIPEDSIFTMAD-
+RGECVPGEQEPEPILIPRV------RRAVLPQ----EEEGSGGGQLVTEVTKKEDSCQLG
+YSAGPCMGMTSRYFYNGTSMACETFQYGGCMGNGNNFVTEKECLQTCRTVAACNLPIVRG
+PCRAFIQLWAFDAVKGKCVLFPYGGCQGNGNKFYSEKECREYCGVPG-------------
+DGDEELLRFSN---
+>lcl|131 gi|81886784|sp|O70160|O70160_CAVPO Alpha-1-microglobulin/bikunin
+-----------------MWGAEALLLLLGSCLAISVNPVLTLPDDI-QVQENFDESRMYG
+-K-WYSLAIGSTC--PWLKRIKDRLSVDTMVLGKGATEAQMSTTRTHW--------RRG-
+V----CERTSGFYEKTD--TAGKYLY---SNPKWNLT--MESYVVHTNYDEYAT--VLTK
+KFSR--HH-GP-TITAKLYGREPQLRDSL-LQ----GFREMALSV--GIPEDSIFTMAN-
+RGECIPGEQIPQPTPALRA------RRAVLLQ----EDEGSGAGQPVTDFTKKEDSCQLG
+HSAGPCLGLFKRYFYNGSSMACEIFHYGGCLGNGNNFNSEKECLQTCRTVAACNLPIVPG
+PCQGSAQLWAFDAIKGKCVRFTYGGCQGNGNKFYSEKECKEYCGAPG-------------
+DGDEELLRFSN---

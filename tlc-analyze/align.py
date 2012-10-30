@@ -35,7 +35,6 @@ def get_aligned_hyperedges(hyperedges, pdb_sequence, parent_sequence,
         hyper_list = []
         for node in he:
             new_index = alignment_map[node]
-            print(node, new_index)
             hyper_list.append(new_index)
         aligned_hyperedges.add(frozenset(hyper_list))
     return aligned_hyperedges

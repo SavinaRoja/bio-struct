@@ -168,3 +168,21 @@ def get_hyperedges(pdbfile, modelnumber=0, chain_keys=[], no_hetero=True,
                     hyperedges.add(hyperedge)
     print('Hyperedges calculated in {0} seconds'.format(time.time() - start))
     return hyperedges
+
+def get_hyperedges_indexed_by_sequence(length, hyperedges):
+    '''
+    This will compose a data structure whose index is that of the protein
+    sequence from which the hyperedges were calculated. As opposed to the
+    set of hyperedges, which is no more than a collection of all the hyperedges
+    found within the structure, this will represent a sequence-wise association
+    of residue positions to the hyperedges in which it participates.
+    '''
+    sequence = [0] * (length + 1)
+    for i in xrange(length + 1):
+        edges = []
+        for he in hyperedges:
+            if i in he:
+                edges.append(he)
+        sequence[i] = edges
+    return sequence
+

@@ -23,11 +23,14 @@ def get_hyperresidues(aligned_sequences, aligned_hyperedges):
             for i in hyperedge:  # This will compose the vertices list
                 vertices.append(resi_type[sequence[i]])
             vertices = tuple(vertices)
-            if 0 in vertices:  # Include none without all residues
+            if 0 in vertices:  # Don't include any that omit residues
                 continue
             elif vertices in hyperresidue_set:  # If this has been seen before
-                hyperresidue_set[vertices] += 1
+                hyperresidue_set[vertices] += 1  # add 1 to the count
             else:  # This has not been seen before
                 hyperresidue_set[vertices] = 1
         hyperresidues[hyperedge] = hyperresidue_set
     return hyperresidues
+
+def get_hyperresidues_indexed_by_seq():
+    pass

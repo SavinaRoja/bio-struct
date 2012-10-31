@@ -1,6 +1,6 @@
 #! /usr/bin/python
 
-from hyperedges import get_hyperedges
+from hyperedges import *
 from hyperresidues import get_hyperresidues
 import Bio.SeqIO
 import Bio.AlignIO
@@ -32,11 +32,24 @@ def main():
     for alseq in aligned_file:
         sequences.append(alseq.seq.__str__())
     hyperresidues = get_hyperresidues(sequences, aligned_hyperedges)
-    for he in hyperresidues:
-        #print(hyperresidues[he])
-        for item in hyperresidues[he]:
-            print(hyperresidues[he][item])
-            print(hyperresidues[he][item] / 131.0)
+    #for he in hyperresidues:
+    #    #print(hyperresidues[he])
+    #    for item in hyperresidues[he]:
+    #        print(hyperresidues[he][item])
+    #        print(hyperresidues[he][item] / 131.0)
+    with open('./processed/3EYC_hyperresidues.txt', 'w') as out:
+        for he in hyperresidues:  # Hyperresidues is indexed by hyperedges
+            out.write('Hyperedge: {0}\n'.format(str(he)))
+            for hr in hyperresidues[he]:  # Iterate over all residues per edge
+                out.write('{0}: {1}'.format(str(hr), hyperresidues[he][hr]))
+                out.write('\n')
+
+    #Get the hyperedges indexed by sequence position
+    he_bi = get_hyperedges_indexed_by_sequence(162, hyperedges)
+    with open('./processed/3EYC_hyperedges_by_sequence.txt', 'w') as out:
+        for i in range(len(he_bi)):
+            out.write('{0}: {1}\n'.format(i, he_bi[i]))
+        
     #print(sequences)
     #for alhe in aligned_file:
     

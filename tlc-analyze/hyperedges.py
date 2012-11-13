@@ -117,7 +117,6 @@ def get_hyperedges(pdbfile, modelnumber=0, chain_keys=[], no_hetero=True,
     and a list of chains.
     '''
     
-    start = time.time()
     structure = parser.get_structure('test', pdbfile)
     
     if len(structure) == 1:
@@ -145,28 +144,37 @@ def get_hyperedges(pdbfile, modelnumber=0, chain_keys=[], no_hetero=True,
     
     hyperedges = set()
     #Find all the mutually contacting residue side groups (hyperedge)
-    while residues:
-        resi = residues.pop(0)
-        for edge in find_mutuals(resi, residues, proximity=proximity,
-                                 constrict=constrict,
-                                 exclude_backbone=exclude_backbone,
-                                 exclude_hydrogens=exclude_hydrogens):
-            if len(edge) > 1:
-                res_numbers = [i.get_id()[1] for i in edge]
-                hyperedge = frozenset(res_numbers)
-                is_subset = False
-                subbed = False
-                for he in hyperedges:
-                    if hyperedge.issubset(he):
-                        is_subset = True
-                        break
-                    if hyperedge.issuperset(he):
-                        subbed = he
-                if subbed:
-                    hyperedges.remove(subbed)
-                if not is_subset:
-                    hyperedges.add(hyperedge)
-    print('Hyperedges calculated in {0} seconds'.format(time.time() - start))
+    print(find_mutuals(resi, residues, proximity=proximity,
+                       constrict=constrict,
+                       exclude_backbone=exclude_backbone,
+                       exclude_hydrogens=exclude_hydrogens))
+    for edge in find_mutuals(resi, residues, proximity=proximity,
+                            constrict=constrict,
+                            exclude_backbone=exclude_backbone,
+                            exclude_hydrogens=exclude_hydrogens):
+        hyperedges.add(frozenset(edge))
+    print(hyperedges)
+    #while residues:
+    #    resi = residues.pop(0)
+    #    for edge in find_mutuals(resi, residues, proximity=proximity,
+    #                             constrict=constrict,
+    #                             exclude_backbone=exclude_backbone,
+    #                             exclude_hydrogens=exclude_hydrogens):
+    #        if len(edge) > 1:
+    #            res_numbers = [i.get_id()[1] for i in edge]
+    #            hyperedge = frozenset(res_numbers)
+    #            is_subset = False
+    #            subbed = False
+    #            for he in hyperedges:
+    #                if hyperedge.issubset(he):
+    #                    is_subset = True
+    #                    break
+    #                if hyperedge.issuperset(he):
+    #                    subbed = he
+    #            if subbed:
+    #                hyperedges.remove(subbed)
+    #            if not is_subset:
+    #                hyperedges.add(hyperedge)
     return hyperedges
 
 def get_hyperedges_indexed_by_sequence(length, hyperedges):

@@ -2,6 +2,7 @@
 
 from hyperedges import *
 from hyperresidues import get_hyperresidues
+import scoring
 import Bio.SeqIO
 import Bio.AlignIO
 import align
@@ -43,9 +44,12 @@ def main():
             for hr in hyperresidues[he]:  # Iterate over all residues per edge
                 out.write('{0}: {1}'.format(str(hr), hyperresidues[he][hr]))
                 out.write('\n')
-
+    
+    
     #Get the hyperedges indexed by sequence position
     he_bi = get_hyperedges_indexed_by_sequence(162, hyperedges)
+    
+    
     with open('./processed/3EYC_hyperedges_by_sequence.txt', 'w') as out:
         for i in range(len(he_bi)):
             out.write('{0}: {1}\n'.format(i, he_bi[i]))

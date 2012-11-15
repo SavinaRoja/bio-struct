@@ -42,9 +42,24 @@ class Hypergraph(object):
         self.get_hyperresidues('./data/lipocalin_family_aligned.fa')
         self.calc_residue_scores()
         self.calc_edge_weights()
+        self.calc_edge_weights_by_seq(13)
+
+    def calc_edge_weights_by_seq(self, offset):
+        self.edge_weights_by_seq = [0] * (offset + len(self.unaligned_parent))
+        for i in xrange(len(self.edge_weights_by_seq)):
+            for edge in self.edge_weights:
+                if i in edge:
+                    self.edge_weights_by_seq[i] += self.edge_weights[edge]
 
     def calc_edge_weights(self):
-        pass
+        self.edge_weights = {}
+        for edge in self.phi_scored_hyperresidues:
+            sum = 0
+            for residue in self.phi_scored_hyperresidues[edge]:
+                normalized_count = self.hyperresidues[edge][residue] / self.seq_num
+                resi_phi = self.phi_scored_hyperresidues[edge][residue]
+                sum += normalized_count * resi_phi
+            self.edge_weights[edge] = sum
 
     def calc_residue_scores(self):
         #First calculate the q_scores, rho is infinite

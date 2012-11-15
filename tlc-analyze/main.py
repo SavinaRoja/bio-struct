@@ -2,6 +2,7 @@
 
 from hyperedges import *
 from hyperresidues import get_hyperresidues
+import hypergraph
 import scoring
 import Bio.SeqIO
 import Bio.AlignIO
@@ -9,6 +10,12 @@ import align
 
 
 def main():
+    h = hypergraph.Hypergraph('./data/3EYC.pdb')
+    h.hyper_analyze()
+    print(h.aligned_hyperedges)
+
+
+def main2():
     #First, parse the pdb structure for the hyperedges
     with open('./processed/3EYC_hyperedges.txt', 'w') as out:
         hyperedges = get_hyperedges('./data/3EYC.pdb', chain_keys=['A'])

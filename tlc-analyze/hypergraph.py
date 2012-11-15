@@ -3,6 +3,9 @@ A class-based approach to my protein hypergraph code.
 '''
 
 from Bio.PDB.PDBParser import PDBParser
+import Bio.SeqIO
+import Bio.AlignIO
+
 import math
 
 parser = PDBParser()
@@ -25,15 +28,49 @@ class Hypergraph(object):
     A class for my protein hypergraph, presents a coherent united framework for
     the hypergraph analysis.
     '''
-    def __init__(self, structure_file_path, modelnumber, chain_keys):
+    def __init__(self, structure_file_path):
         self.pdb_structure = parser.get_structure('test', structure_file_path)
         self.hyperedges = set()
         self.hyperresidues = set()
+    
+    def hyper_analyze(self):
+        self.get_hyperedges()
+        self.unaligned_parent = str(Bio.SeqIO.read('./data/3eyc_a_from_pdb.fa', 'fasta').seq)
+        self.aligned_parent = str(Bio.SeqIO.read('./data/3eyc_parent.fa', 'fasta').seq)
+        self.get_alignment_map(self.unaligned_parent, self.aligned_parent, offset=13)
+        self.get_aligned_hyperedges()
+        
+    def get_alignment_map(self, unaligned, aligned, offset):
+        '''
+        Create an index map from the unaligned parent to the parent sequence
+        in the family MSA. The offset value can be used to account for an
+        index shift of the unaligned parent, 3EYC begins at 13 for instance.
+        '''
+        map = [0] * (offset + len(unaligned))
+        i = 0
+        j = 0
+        while i < len(unaligned):
+            una = unaligned[i]
+            while una != aligned[j]:
+                j += 1
+            map[i + offset] = j + 1
+            j += 1
+            i += 1
+        self.alignment_map = map
+        
+
+    def get_aligned_hyperedges(self):
+        aligned_hyperedges = set()
+        for he in self.hyperedges:
+            hyper_list = []
+            for node in he:
+                new_index = self.alignment_map[node]
+                hyper_list.append(new_index)
+            aligned_hyperedges.add(frozenset(hyper_list))
+        self.aligned_hyperedges = aligned_hyperedges
 
     
-        
-        
-    def get_hyperedges(self, modelnumber=0, chain_keys=[], no_hetero=True,
+    def get_hyperedges(self, modelnumber=0, chain_keys=['A'], no_hetero=True,
                          proximity=4.6, constrict=35, exclude_backbone=True,
                          exclude_hydrogens=True):
         '''
@@ -41,7 +78,7 @@ class Hypergraph(object):
         A hyperedge is defined as the mutual contact between two or more
         residues.
         '''
-        model = structure[modelnumber]
+        model = self.pdb_structure[modelnumber]
         chains=[]
         if not chain_keys:  # Assume all chains if none are given
             chains = model.get_list()
@@ -60,27 +97,75 @@ class Hypergraph(object):
         #Find all the mutually contacting residue side groups (hyperedge)
         while residues:
             resi = residues.pop(0)
-            for edge in find_mutuals(resi, residues, proximity=proximity,
-                                     constrict=constrict,
-                                     exclude_backbone=exclude_backbone,
-                                     exclude_hydrogens=exclude_hydrogens):
-                if len(edge) > 1:
+            for edge in self.find_mutuals(resi, residues, proximity=proximity,
+                                          constrict=constrict,
+                                          exclude_backbone=exclude_backbone,
+                                          exclude_hydrogens=exclude_hydrogens):
+                if len(edge) > 0:
                     res_numbers = [i.get_id()[1] for i in edge]
                     hyperedge = frozenset(res_numbers)
-                    is_subset = False
-                    subbed = False
-                    for he in hyperedges:
-                        if hyperedge.issubset(he):
-                            is_subset = True
-                            break
-                        if hyperedge.issuperset(he):
-                            subbed = he
-                    if subbed:
-                        hyperedges.remove(subbed)
-                    if not is_subset:
-                        hyperedges.add(hyperedge)
-        return hyperedges
-    
+                    hyperedges.add(hyperedge)
+        self.hyperedges = hyperedges
+
+    def find_mutuals(self, residue, other_residues=[], proximity=4.6,
+                 constrict=35, exclude_backbone=True,
+                 exclude_hydrogens=True):
+        '''
+        This provides the recursive core for finding mutual residue contacts. It
+        will return a list of all contact paths it found. These represent all
+        possible hyperedges of all orders.
+        
+        This function detects residue contacts between the residue argument and all
+        members of the other_residues argument. exclude_backbone is an optional
+        argument, which may use defaults provided in this module when set to True,
+        or may employ a custom atom backbone definition when supplied with such a
+        list. If set to False, no backbone atoms will be excluded.
+        
+        exclude_hydrogens will cause the script to overlook all hydrogen atoms,
+        these are most often found in NMR structures, 
+        '''
+        contacts = []
+        for other in other_residues:  # Check all other residues
+            for resi_atom in residue:  # Iterate over all residue atoms
+                makes_contact = False
+                sanity = False
+                if exclude_hydrogens and resi_atom.get_name()[0] == 'H':
+                    continue
+                if exclude_backbone and resi_atom.get_name() in PROTEIN_BACKBONE:
+                    continue
+                for other_atom in other:  # Iterate over all other residue atoms
+                    if exclude_hydrogens and resi_atom.get_name()[0] == 'H':
+                        continue
+                    if exclude_backbone and resi_atom.get_name() in PROTEIN_BACKBONE:
+                        continue
+                    dist = self.atomic_distance(resi_atom, other_atom)
+                    if dist >= constrict:  # Distance sanity check
+                        sanity = True
+                        break
+                    elif dist <= proximity:
+                        makes_contact = True
+                        break
+                if any([makes_contact, sanity]):
+                    break
+            if makes_contact:
+                contacts.append(other)
+        if not contacts:
+            return [[residue]]
+        elif len(contacts) == 1:
+            return [[residue], [residue, contacts[0]]]
+        else:
+            new_contacts = []
+            i = 0
+            while i < len(contacts):
+                new_contacts += self.find_mutuals(contacts[i],contacts[i + 1:])
+                i += 1
+            contacts = [[residue]]
+            for item in new_contacts:
+                contacts.append([residue] + item)
+                #print(contacts)
+                #raw_input()
+            return contacts
+
     def atomic_distance(self, atom1, atom2):
         '''
         Calculates the distance between two PDB Atom objects.

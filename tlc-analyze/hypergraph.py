@@ -39,6 +39,141 @@ class Hypergraph(object):
         self.aligned_parent = str(Bio.SeqIO.read('./data/3eyc_parent.fa', 'fasta').seq)
         self.get_alignment_map(self.unaligned_parent, self.aligned_parent, offset=13)
         self.get_aligned_hyperedges()
+        self.get_hyperresidues('./data/lipocalin_family_aligned.fa')
+        self.calc_residue_scores()
+        self.calc_edge_weights()
+
+    def calc_edge_weights(self):
+        pass
+
+    def calc_residue_scores(self):
+        #First calculate the q_scores, rho is infinite
+        self.q_scored_hyperresidues = {}
+        for edge in self.hyperresidues:
+            q_scores = {}
+            for residue in self.hyperresidues[edge]:
+                q_scores[residue] = self.hyperresidues[edge][residue] / self.seq_num
+            self.q_scored_hyperresidues[edge] = q_scores
+        #Calculate the phi scores
+        self.phi_scored_hyperresidues = {}
+        for edge in self.hyperresidues:
+            phi_scores = {}
+            #May the gods forgive me for the code I am about to write
+            for residue in self.hyperresidues[edge]:
+                if len(residue) == 1:  # First order
+                    phi_score = math.log10(self.q_scored_hyperresidues[edge][residue])
+                    phi_scores[residue] = phi_score
+                elif len(residue) == 2:  # Second order
+                    #Numerator
+                    num = self.q_scored_hyperresidues[edge][residue]
+                    #I have to decompose the hyperedge to its lesser edges
+                    edge1, edge2 = tuple([edge[0]]), tuple([edge[1]])
+                    #Same for the residues. This DEPENDS on strict ordering in previous steps
+                    resi1, resi2 = tuple([residue[0]]), tuple([residue[1]])
+                    #Denominator
+                    den = self.q_scored_hyperresidues[edge1][resi1] * self.q_scored_hyperresidues[edge2][resi2]
+                    phi_score = math.log(num / den)
+                    phi_scores[residue] = phi_score
+                elif len(residue) == 3:  # Third order
+                    #This third order residue
+                    resi_q = self.q_scored_hyperresidues[edge][residue]
+                    #I have to decompose the hyperedge to second and first order edges
+                    edge11, edge12, edge13 = [i for i in edge]
+                    edge21, edge22, edge23 = edge[:2], edge[0:3:2], edge[1:]
+                    #Same for the residues. This DEPENDS on strict ordering in previous steps
+                    resi11, resi12, resi13 = [i for i in residue]
+                    resi21, resi22, resi23 = residue[:2], residue[0:3:2], residue[1:]
+                    #Calculate the numerator
+                    nq1 = self.q_scored_hyperresidues[tuple([edge11])][tuple([resi11])]
+                    nq2 = self.q_scored_hyperresidues[tuple([edge12])][tuple([resi12])]
+                    nq3 = self.q_scored_hyperresidues[tuple([edge13])][tuple([resi13])]
+                    num = resi_q * nq1 * nq2 * nq3
+                    #Calculate the denominator
+                    dq1 = self.q_scored_hyperresidues[edge21][resi21]
+                    dq2 = self.q_scored_hyperresidues[edge22][resi22]
+                    dq3 = self.q_scored_hyperresidues[edge23][resi23]
+                    den = dq1 * dq2 * dq3
+                    #Finally, the phi score
+                    phi_score = math.log10(num / den)
+                    phi_scores[residue] = phi_score
+                elif len(residue) == 4:  # Fourth order
+                    #This is not a simplified algrebraic approach
+                    #This fourth order residue
+                    resi_q = self.q_scored_hyperresidues[edge][residue]
+                    #Decompose to third order
+                    edge31 = tuple([edge[0], edge[1], edge[2]])
+                    edge32 = tuple([edge[0], edge[1], edge[3]])
+                    edge33 = tuple([edge[0], edge[2], edge[3]])
+                    edge34 = tuple([edge[1], edge[2], edge[3]])
+                    edges3 = [edge31, edge32, edge33, edge34]
+                    resi31 = tuple([residue[0], residue[1], residue[2]])
+                    resi32 = tuple([residue[0], residue[1], residue[3]])
+                    resi33 = tuple([residue[0], residue[2], residue[3]])
+                    resi34 = tuple([residue[1], residue[2], residue[3]])
+                    resis3 = [resi31, resi32, resi33, resi34]
+                    qs3 = [self.q_scored_hyperresidues[i][j] for i,j in zip(edges3, resis3)]
+                    #Decompose to second order
+                    edge21 = tuple([edge[0], edge[1]])
+                    edge22 = tuple([edge[0], edge[2]])
+                    edge23 = tuple([edge[0], edge[3]])
+                    edge24 = tuple([edge[1], edge[2]])
+                    edge25 = tuple([edge[1], edge[3]])
+                    edge26 = tuple([edge[2], edge[3]])
+                    edges2 = [edge21, edge22, edge23, edge24, edge25, edge26]
+                    resi21 = tuple([residue[0], residue[1]])
+                    resi22 = tuple([residue[0], residue[2]])
+                    resi23 = tuple([residue[0], residue[3]])
+                    resi24 = tuple([residue[1], residue[2]])
+                    resi25 = tuple([residue[1], residue[3]])
+                    resi26 = tuple([residue[2], residue[3]])
+                    resis2 = [resi21, resi22, resi23, resi24, resi25, resi26]
+                    qs2 = [self.q_scored_hyperresidues[i][j] for i,j in zip(edges2, resis2)]
+                    #Decompose to first order
+                    edges1 = [tuple([edge[i]]) for i in xrange(4)]
+                    resis1 = [tuple([residue[i]]) for i in xrange(4)]
+                    qs1 = [self.q_scored_hyperresidues[i][j] for i,j in zip(edges1, resis1)]
+                    #Construct our denominator
+                    all_qs = qs3 + qs2 + qs1
+                    den = 1
+                    for q in all_qs:
+                        den = den * q
+                    phi_score = math.log10(resi_q / den)
+                    phi_scores[residue] = phi_score
+                else:  # Greater than 4... ewww
+                    raise ValueError('Edge order greater than 4!')
+            self.phi_scored_hyperresidues[edge] = phi_scores
+
+    def get_hyperresidues(self, msa_file):
+        '''
+        This function calculates and returns the hyperresidues from a multiply-
+        aligned family file based on the aligned hyperedges in the hypergraph.
+        '''
+        
+        resi_type = {'C': 1, 'F': 2, 'Y': 2, 'W': 2, 'H': 3, 'R': 3, 'K': 3,
+                     'N': 4, 'D': 4, 'Q': 4, 'E': 4, 'S': 5, 'T': 5, 'P': 5,
+                     'A': 5, 'G': 5, 'M': 6, 'I': 6, 'L': 6, 'V': 6, '-': 0}
+        
+        #A dictionary keyed by hyperedges will hold values of hyperresidues
+        hyperresidues = {}
+        msa = Bio.AlignIO.read(msa_file, 'fasta')
+        sequences = [al.seq.__str__() for al in msa]
+        self.seq_num = float(len(sequences))
+        for edge in self.aligned_hyperedges:
+            edge_list = list(edge)
+            edge_list.sort()
+            edge_tuple = tuple(edge_list)
+            hyperres_dict = {}
+            for seq in sequences:
+                vertices = tuple([resi_type[seq[i]] for i in edge_tuple])
+                if 0 in vertices:  # This edge does not exist in this sequence
+                    continue
+                elif vertices in hyperres_dict:  # Seen before, add 1
+                    hyperres_dict[vertices] += 1
+                else:  # New, set to 1
+                    hyperres_dict[vertices] = 1
+            hyperresidues[edge_tuple] = hyperres_dict
+        self.hyperresidues = hyperresidues
+        
         
     def get_alignment_map(self, unaligned, aligned, offset):
         '''

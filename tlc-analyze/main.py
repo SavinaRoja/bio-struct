@@ -12,7 +12,7 @@ import align
 def main():
     h = hypergraph.Hypergraph('./data/3EYC.pdb')
     h.hyper_analyze()
-    print(h.aligned_hyperedges)
+    print(h.phi_scored_hyperresidues)
 
 
 def main2():

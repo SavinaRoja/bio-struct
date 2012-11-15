@@ -33,23 +33,27 @@ class Hypergraph(object):
         self.hyperedges = set()
         self.hyperresidues = set()
     
-    def hyper_analyze(self):
+    def hyper_analyze(self, unaligned, aligned, offset, family_msa):
         self.get_hyperedges()
-        self.unaligned_parent = str(Bio.SeqIO.read('./data/3eyc_a_from_pdb.fa', 'fasta').seq)
-        self.aligned_parent = str(Bio.SeqIO.read('./data/3eyc_parent.fa', 'fasta').seq)
-        self.get_alignment_map(self.unaligned_parent, self.aligned_parent, offset=13)
+        self.unaligned_parent = str(Bio.SeqIO.read(unaligned, 'fasta').seq)
+        self.aligned_parent = str(Bio.SeqIO.read(aligned, 'fasta').seq)
+        self.get_alignment_map(offset)
         self.get_aligned_hyperedges()
-        self.get_hyperresidues('./data/lipocalin_family_aligned.fa')
+        self.get_hyperresidues(family_msa)
         self.calc_residue_scores()
         self.calc_edge_weights()
-        self.calc_edge_weights_by_seq(13)
+        self.calc_edge_weights_by_seq()
 
-    def calc_edge_weights_by_seq(self, offset):
-        self.edge_weights_by_seq = [0] * (offset + len(self.unaligned_parent))
+    def dealign(self, sequence):
+        return ''.join(sequence.split('-'))
+
+    def calc_edge_weights_by_seq(self):
+        self.edge_weights_by_seq = [0] * (len(self.aligned_parent) + 1) 
         for i in xrange(len(self.edge_weights_by_seq)):
             for edge in self.edge_weights:
                 if i in edge:
                     self.edge_weights_by_seq[i] += self.edge_weights[edge]
+        self.unaligned_edge_weights_by_seq = [i for i in self.edge_weights_by_seq if i]
 
     def calc_edge_weights(self):
         self.edge_weights = {}
@@ -190,12 +194,14 @@ class Hypergraph(object):
         self.hyperresidues = hyperresidues
         
         
-    def get_alignment_map(self, unaligned, aligned, offset):
+    def get_alignment_map(self, offset):
         '''
         Create an index map from the unaligned parent to the parent sequence
         in the family MSA. The offset value can be used to account for an
         index shift of the unaligned parent, 3EYC begins at 13 for instance.
         '''
+        unaligned = self.unaligned_parent
+        aligned = self.aligned_parent
         map = [0] * (offset + len(unaligned))
         i = 0
         j = 0

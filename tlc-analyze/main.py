@@ -22,8 +22,26 @@ def main():
                       aligned='./data/1xki_parent.fa',
                       offset=12,
                       family_msa='./data/lipocalin_family_aligned.fa')
+    #To compare the holo and apo, structures, artificially start holo at 12
+    adjust_holo = [0] + holo.unaligned_edge_weights_by_seq
+    apo = apo.unaligned_edge_weights_by_seq
+    holo_and_apo = zip(adjust_holo, apo)
+    with open('apo_holo.csv', 'w') as out:
+        out.write(',')
+        i = 0
+        while i < len(apo):
+            out.write('{0},'.format(i + 12))
+            i +=1
+        out.write('\n3EYC,')
+        for j in adjust_holo:
+            out.write('{0},'.format(j))
+        out.write('\n1XKI,')
+        for k in apo:
+            out.write('{0},'.format(k))
+    
     plt.plot(holo.unaligned_edge_weights_by_seq, 'b-',
-             apo.unaligned_edge_weights_by_seq, 'r-')
+             apo.unaligned_edge_weights_by_seq, 'r-',
+             holo_and_apo, 'g-')
     plt.ylabel('Residue Weight (sum of connected edges)')
     plt.xlabel('TLC Sequence Residues')
     plt.show()

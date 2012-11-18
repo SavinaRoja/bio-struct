@@ -34,15 +34,28 @@ class Hypergraph(object):
         self.hyperresidues = set()
     
     def hyper_analyze(self, unaligned, aligned, offset, family_msa):
+        '''
+        A sort of default workflow routine, though obviously all these steps
+        could be called independently or modified. This at least a basic
+        example of the work that needs to be done.
+        '''
+        #Parse the structure file to compile a set of all hyperedges
         self.get_hyperedges()
+        #Determine how to align the structure sequence to the MSA
         self.unaligned_parent = str(Bio.SeqIO.read(unaligned, 'fasta').seq)
         self.aligned_parent = str(Bio.SeqIO.read(aligned, 'fasta').seq)
         self.get_alignment_map(offset)
+        #Align the hyperedges set, using the alignment map
         self.get_aligned_hyperedges()
+        #Get all hyperresidues for all hyperedges, as represented by the
+        #sequences in the MSA
         self.get_hyperresidues(family_msa)
+        #Calculate the residue-wise "q" and "phi" scores
         self.calc_residue_scores()
+        #Calculate the edge-wise score: "edge weight"
         self.calc_edge_weights()
-        self.calc_edge_weights_by_seq()
+        #Calculate the sequence-wise scores, sum weight of connected edges
+        self.calc_edge_weights_by_seq()  # Produces both aligned and unaligned
 
     def dealign(self, sequence):
         return ''.join(sequence.split('-'))
@@ -66,7 +79,7 @@ class Hypergraph(object):
             self.edge_weights[edge] = sum
 
     def calc_residue_scores(self):
-        #First calculate the q_scores, rho is infinite
+        #First calculate the q_scores, rho is infinite at the moment
         self.q_scored_hyperresidues = {}
         for edge in self.hyperresidues:
             q_scores = {}

@@ -62,10 +62,11 @@ def heat_map(seq_scores, start_color='black', end_color='white', offset=0):
     min_score = min(seq_scores)
     max_score = max(seq_scores)
     diff_score = max_score - min_score
-    for i in xrange(len(seq_scores)):
-        cmd.select('tempo', 'chain a and resi {0}'.format(i + offset))
+    tick = 0
+    for i in seq_scores:
+        cmd.select('heat_map', 'chain a and resi {0}'.format(i + offset))
         norm_score = (seq_scores[i] - min_score) / diff_score
         temp_color = [norm_score * diffs[i] + start_rgb[i] for i in xrange(3)]
-        cmd.set_color('temp', temp_color)
-        cmd.color('temp', 'tempo')
+        cmd.set_color('heat_col{0}'.format(tick), temp_color)
+        cmd.color('heat_col{0}'.format(tick), 'heat_map')
 

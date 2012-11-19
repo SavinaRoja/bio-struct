@@ -43,7 +43,29 @@ def get_struct_hypergraph(struct_name, load_struct=True):
         cmd.center('A')
     return h
 
-def heat_map(start_color='black', end_color'white'):
-    
+def get_color_rgb(color):
+    colors = cmd.get_color_indices()
+    for c in colors:
+        if c[0] == color:
+            return cmd.get_color_tuple(colors.index(c))
+    else:
+        print('Could not find a reference for that color')
+        return None
 
+def heat_map(seq_scores, start_color='black', end_color='white', offset=0):
+    '''
+    Generates a heat map of the hyperconservation score by residues in PyMOL
+    '''
+    start_rgb = get_color_rgb(start_color)
+    end_rgb = get_color_rgb(end_color)
+    diffs = [end_rgb[i] - start_rgb[i] for i in xrange(3)]
+    min_score = min(seq_scores)
+    max_score = max(seq_scores)
+    diff_score = max_score - min_score
+    for i in xrange(len(seq_scores)):
+        cmd.select('tempo', 'chain a and resi {0}'.format(i + offset))
+        norm_score = (seq_scores[i] - min_score) / diff_score
+        temp_color = [norm_score * diffs[i] + start_rgb[i] for i in xrange(3)]
+        cmd.set_color('temp', temp_color)
+        cmd.color('temp', 'tempo')
 

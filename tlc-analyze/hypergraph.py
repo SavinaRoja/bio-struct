@@ -55,18 +55,23 @@ class Hypergraph(object):
         #Calculate the edge-wise score: "edge weight"
         self.calc_edge_weights()
         #Calculate the sequence-wise scores, sum weight of connected edges
-        self.calc_edge_weights_by_seq()  # Produces both aligned and unaligned
+        self.calc_edge_weights_by_seq(offset)  # Produces both aligned and unaligned
 
     def dealign(self, sequence):
         return ''.join(sequence.split('-'))
 
-    def calc_edge_weights_by_seq(self):
-        self.edge_weights_by_seq = [0] * (len(self.aligned_parent) + 1) 
+    def calc_edge_weights_by_seq(self, offset):
+        self.edge_weights_by_seq = [0] * (len(self.aligned_parent) + offset)
         for i in xrange(len(self.edge_weights_by_seq)):
             for edge in self.edge_weights:
                 if i in edge:
                     self.edge_weights_by_seq[i] += self.edge_weights[edge]
-        self.unaligned_edge_weights_by_seq = [i for i in self.edge_weights_by_seq if i]
+        self.unaligned_edge_weights_by_seq = [0] * (len(self.unaligned_parent) + offset)
+        for i in xrange(len(self.unaligned_edge_weights_by_seq)):
+            j = self.alignment_map[i]
+            for edge in self.edge_weights:
+                if j in edge:
+                    self.unaligned_edge_weights_by_seq[i] += self.edge_weights[edge]
 
     def calc_edge_weights(self):
         self.edge_weights = {}

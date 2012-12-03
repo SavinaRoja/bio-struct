@@ -1,0 +1,55 @@
+Human Heart-Type Fatty Acid Binding Protein
+    apo:
+        3RSW
+    holo:
+        2HMB
+        1HMR
+        1HMS
+        1HMT
+Bovine beta Lactoglobulin
+    apo:
+        3NPO
+    holo:
+        3NQ3
+        3NQ9
+        4DQ3
+        3UEX
+        3UEV
+        3UEU
+        3UEW
+Human Liver Fatty Acid Binding Protein LFABP
+    apo:
+        2F73
+        3STN
+    holo:
+        3STK
+        3STM
+Human Adipocyte Lipid-Binding Protein FABP4
+    apo:
+        3RZY
+    holo:
+        3HK1
+        3P6C
+        3P6D
+        3P6E
+        3P6F
+        3P6G
+        3P6H
+Human Apolipoprotein D (ApoD)
+    apo:
+        2HZR
+    holo:
+        2HZQ
+Engineered Human Lipocalin 2 with specificity for Y-DTPA
+    apo:
+        3DTQ
+    holo:
+        3DSZ
+Human Cellular Retinol Binding Protein II (CRBP-II)
+    apo:
+        2RCQ
+    holo:
+        2RCT
+
+
+

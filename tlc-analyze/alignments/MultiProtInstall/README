@@ -1,0 +1,191 @@
+##############################################################################
+#Multiple Alignment of Protein Structures (MultiProt) Program.
+#
+#Reference: 
+#
+#Shatsky, M. and Nussinov, R. and Wolfson, H.J., 
+#MultiProt - a Multiple Protein Structural Alignment Algorithm. 
+#Lecture Notes in Computer Science 2452:235--250, Springer Verlag, 2002. 
+#Workshop on Algorithms in Bioinformatics, WABI 2002 
+##############################################################################
+
+Executable name: multiprot.Linux
+Parameter file:  params.txt
+
+
+1) Copy params.txt file to your directory. 
+   Parameter file (params.txt) should be always placed to a directory
+   where you run multiprot.Linux from. Otherwise the program uses the default
+   parameters.
+
+2) Program usage:
+   Usage: ./multiprot.Linux pdb1 pdb2 ...
+
+##########################################################################
+#Program Output
+##########################################################################
+4) Output:
+
+   For example if you run: ./multiprot.Linux pdb1dmhA pdb1kul pdb1vcbC pdb2trhA
+ 
+   (*) The program output is saved in log file : 
+
+       log_multiprot.txt
+
+       The first part of the log displays the parameters used 
+       during the execution.
+       Then, the sizes of the input molecules are listed.        
+       Then, the best results are presented. 
+
+
+(*) Very IMPORTANT: in some cases the size of a multiple alignment 
+    for more molecules could be larger than the size of alignment
+    for less mol's (which sounds illogical). Suppose you copy
+    the same molecule ten times and perform multiple alignment.
+    In this case, the program outputs only solution that contains
+    ten aligned mol's, because solutions for less number of
+    mol's are sub-solutions of the ten aligned mol's and, thus,
+    these solutions are not created.   
+
+
+       The results are divided into 2 types:
+
+1. The first type are sequence in/dependent structural multiple alignments. 
+
+================================================
+Num Of Mols: 2 Largest Solution: 82
+Num Of Mols: 3 Largest Solution: 52
+Num Of Mols: 4 Largest Solution: 31
+================================================
+
+   This results are stored in the 2_sol.res, 3_sol.res, 4_sol.res.
+   The first number indicates the number of molecules in the
+   alignment. Consider 3_sol.res:
+
+================================================
+Molecules: 
+Mol-0 : ../../MultiProt/SCOP/Transthyretin/pdb1dmhA
+Mol-1 : ../../MultiProt/SCOP/Transthyretin/pdb1kul
+Mol-2 : ../../MultiProt/SCOP/Transthyretin/pdb1vcbC
+Mol-3 : ../../MultiProt/SCOP/Transthyretin/pdb2trhA
+
+Results: 
+
+Solution Num : 0
+
+Mult Corres Score : 52
+Reference Molecule : 0
+Molecule : 2
+Trans : -2.77702 -0.401906 -0.817082 43.5387 74.9793 164.091
+Molecule : 3
+Trans : -0.402641 0.431622 -1.24325 -33.1071 69.1318 36.0701
+RMSD : 1.9755
+
+Match List (Chain_ID.Res_Type.Res_Num) : 47
+A.T.101 C.P.99 A.S.117 
+A.I.135 C.G.114 A.P.11 
+A.L.136 C.H.115 A.L.12 
+A.H.137 C.L.116 A.M.13 
+A.G.138 C.W.117 A.V.14 
+A.T.139 C.L.118 A.K.15 
+A.I.140 C.F.119 A.V.16 
+A.F.141 C.R.120 A.L.17 
+A.D.142 C.D.121 A.D.18 
+A.D.144 C.T.124 A.R.21 
+A.K.146 C.D.126 A.S.23 
+A.P.147 C.G.127 A.P.24 
+A.L.148 C.L.128 A.A.25 
+A.A.151 C.T.152 A.V.28 
+A.K.152 C.I.151 A.A.29 
+.....
+.....
+.....
+================================================
+
+Each molecule is referenced by its ID. For example:
+ Reference Molecule : 0 
+means molecule ../../MultiProt/SCOP/Transthyretin/pdb1dmhA
+
+In the above solution three molecules are aligned : 0,2,3. For each molecule
+the 3-D transformation is given. In the end there is a RMSD of the multiple
+alignment, calculated as an average of the pairwise RMSD with the Reference 
+molecule.
+Then, goes multiple match list. The number of columns as a number of molecules
+in the multiple alignment (3 in this case). The order of the columns as the order 
+of the molecules:
+0,2,3.
+  
+
+
+2. The second part contains multiply aligned contiguous fragments:
+       ================================================
+       Sets - Mols: 2 Longest (contiguous) Solution: 33
+       Sets - Mols: 3 Longest (contiguous) Solution: 26
+       Sets - Mols: 4 Longest (contiguous) Solution: 24 
+       ================================================
+                     
+       This results are stored in the 2_sets.res, 3_sets.res, 4_sets.res.
+       The first number indicates the number of molecules in the
+       alignment. Consider 3_sets.res:
+        
+================================================
+Molecules: 
+Mol-0 : ../../MultiProt/SCOP/Transthyretin/pdb1dmhA
+Mol-1 : ../../MultiProt/SCOP/Transthyretin/pdb1kul
+Mol-2 : ../../MultiProt/SCOP/Transthyretin/pdb1vcbC
+Mol-3 : ../../MultiProt/SCOP/Transthyretin/pdb2trhA
+
+Results: 
+
+Solution Num : 0
+
+Reference Molecule : 0
+Length : 23
+Reference Fragment : 122 144
+Molecule : 2
+0- 136 158 : 120 146 134 160 : 2.37788 : 1.47712 0.668648 -0.630286 70.2938 116.454 -6.3716 : 136 158
+Molecule : 3
+0- 77 99 : 122 144 77 99 : 2.8048 : 2.21436 -0.274787 -3.07391 33.6739 21.6941 72.334 : 77 99
+
+Solution Num : 1
+
+Reference Molecule : 0
+Length : 23
+Reference Fragment : 118 140
+Molecule : 1
+0- 594 616 : 118 140 594 616 : 2.82152 : -0.242497 -0.833872 -1.65201 9.08156 72.6928 54.9865 : 594 616
+1- 515 537 : 118 140 515 537 : 2.90958 : -0.22564 -0.0594672 0.665448 5.48736 71.0695 61.4361 : 515 537
+Molecule : 3
+0- 90 112 : 117 141 89 113 : 2.08919 : 0.525393 -0.421079 -0.404785 -32.6944 80.1506 20.6555 : 90 112
+================================================
+                     
+
+
+Reference Molecule : 0   #Reference molecule number according to the list on the top (=> 1dmhA)
+Length : 23
+Reference Fragment : 122 144 #start/end residue of the reference fragment
+
+Then, follow the fragments from the other molecules.
+In some cases there are several fragments from the same molecule (see Solution Num : 1)
+
+================================================
+Molecule : 1
+0- 594 616 : 118 140 594 616 : 2.82152 : -0.242497 -0.833872 -1.65201 9.08156 72.6928 54.9865 : 594 616
+1- 515 537 : 118 140 515 537 : 2.90958 : -0.22564 -0.0594672 0.665448 5.48736 71.0695 61.4361 : 515 537
+================================================
+
+Each line lists fragment start/end (of the Molecule 1) : start/end (Reference Molecule) start/end (Molecule 1): RMSD : transformation :  start/end (of the Molecule 1)
+
+
+
+##########################################################################
+#Generating joined PDB files.
+##########################################################################
+5) To produce joined PDB files from the multiple alignments (only for the first and second
+type of the results) use script:
+
+corresp_pdb.pl 
+
+It produces join*.pdb files. Look at them (more relevant are join.pdb, joinFull.pdb, joinPart.pdb), 
+they are self explaining. The chain assaignment is in A-B-C order according to the input
+file order.

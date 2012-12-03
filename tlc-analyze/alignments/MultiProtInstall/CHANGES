@@ -1,0 +1,39 @@
+
+************************************************************
+Version 1.5
+************************************************************
+
+Now only one optimization scheme can be applied
+in one run, i.e. BioCore is not produced simultaniously 
+with the best geometric core.
+To select the optimization scheme use parameter:
+	#0 - pure geometry
+	#1 - PAM250 scoring  
+	#2 - BioCore according to classification of parameter BioCore below
+	Scoring 0
+
+For this reason only *_set.res and *_sol.res are created (almost in all cases
+only *_sol.res are relevant for the user).
+
+
+BioCore parameters are changed:
+	#calculate bio-core according to the following classification
+	# 0- user defined. Reads file 'biocore.in'
+	# 1- identity
+	# 2- Hydrophobic - A,V,I,L,M,C 
+	#    Hydrophilic +charged - K,R,H 
+	#    Hydrophilic -charged - D,E   
+	#    Hydrophilic polar uncharged - S,T,P,N,Q 
+	#    Aromatic - F,Y,W 
+	#    Glycine - G 
+	# 3- (default)
+	#    Hydrophobic - A,V,I,L,M,C 
+	#    Hydrophilic +charged, -charged, polar - K,R,H,D,E,S,T,P,N,Q
+	#    Aromatic - F,Y,W 
+	#    Glycine - G 
+	BioCore 3
+
+Now you can use user defined amino acid classification. Example of
+'biocore.in' is provided with the installation.
+
+

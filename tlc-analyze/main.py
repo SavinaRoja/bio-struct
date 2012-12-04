@@ -22,7 +22,14 @@ def main():
                       aligned='./data/1xki_parent.fa',
                       offset=12,
                       family_msa='./data/lipocalin_family_aligned.fa')
-    #To compare the holo and apo, structures, artificially start holo at 12
+    with open('./processed/3EYC_aligned_hyperedges.txt', 'w') as out:
+        for i in holo.aligned_hyperedges:
+            out.write('{0}\n'.format(i))
+    with open('./processed/3EYC_hyperresidues.txt', 'w') as out2:
+        for i in holo.hyperresidues:
+            for j in i:
+                out2.write('{0}, '.format(j))
+            out2.write('/n')
     holo_seq = holo.unaligned_edge_weights_by_seq
     apo_seq = apo.unaligned_edge_weights_by_seq
     with open('apo_holo.csv', 'w') as out:
